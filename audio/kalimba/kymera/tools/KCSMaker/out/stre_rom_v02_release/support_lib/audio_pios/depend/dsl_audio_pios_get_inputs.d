@@ -1,0 +1,1 @@
+C:\Users\Rainy75\Documents\Qualcomm\QCC3034\SINK\audio\kalimba\kymera\tools\KCSMaker\out\stre_rom_v02_release\support_lib\audio_pios/debugobj/dsl_audio_pios_get_inputs.o: dsl_audio_pios_get_inputs.asm  C:\Users\Rainy75\Documents\Qualcomm\QCC3034\SINK\audio\kalimba\kymera\support_lib/subsys3_patch0_fw000012B2_map_public.h
