@@ -21,16 +21,17 @@ DESCRIPTION
 #include "config_definition.h"
 
 typedef struct {
-    unsigned short current;
-    unsigned short padding:8;
-    unsigned short disable_leds:1;
-    unsigned short power_off:1;
     unsigned short vsel:1;
     unsigned short charge:1;
+    unsigned short boost:2;
     unsigned short charger_config:4;
+    unsigned short current:8;
+    unsigned short padding:14;
+    unsigned short disable_leds:1;
+    unsigned short power_off:1;
 } sink_charge_current_t;
 
-#define SINK_USB_POWER_READONLY_CONFIG_BLK_ID 1268
+#define SINK_USB_POWER_READONLY_CONFIG_BLK_ID 1134
 
 typedef struct {
     sink_charge_current_t charge[11];

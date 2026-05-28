@@ -207,10 +207,6 @@ depend_Speaker_qcc512x_qcc302x/sink_a2dp.o: ..\..\sink_a2dp.c \
     ..\..\..\..\installed_libs\include\firmware_qcc512x_qcc302x\csb_.h \
     ..\..\..\..\installed_libs\include\firmware_qcc512x_qcc302x\message.h \
     ..\..\..\..\installed_libs\include\profiles\default_qcc512x_qcc302x\bdaddr.h \
-    ..\..\..\..\installed_libs\include\profiles\default_qcc512x_qcc302x\gatt_fast_pair_server.h \
-    ..\..\..\..\installed_libs\include\firmware_qcc512x_qcc302x\message.h \
-    ..\..\..\..\installed_libs\include\profiles\default_qcc512x_qcc302x\library.h \
-    ..\..\..\..\installed_libs\include\profiles\default_qcc512x_qcc302x\gatt_manager.h \
     ..\..\sink_inquiry.h \
     ..\..\sink_peer.h \
     ..\..\sink_a2dp.h \
@@ -248,8 +244,6 @@ depend_Speaker_qcc512x_qcc302x/sink_a2dp.o: ..\..\sink_a2dp.c \
     ..\..\sink_config.h \
     ..\..\sink_auth.h \
     ..\..\..\..\installed_libs\include\profiles\default_qcc512x_qcc302x\connection.h \
-    ..\..\..\..\installed_libs\include\firmware_qcc512x_qcc302x\bdaddr_.h \
-    ..\..\sink_devicemanager.h \
     ..\..\sink_peer.h \
     ..\..\sink_avrcp.h \
     ..\..\sink_peer_qualification.h \

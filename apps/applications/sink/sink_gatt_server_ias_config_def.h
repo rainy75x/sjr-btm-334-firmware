@@ -20,7 +20,7 @@ DESCRIPTION
 
 #include "config_definition.h"
 
-#define SINK_GATT_SERVER_IAS_READONLY_CONFIG_BLK_ID 1092
+#define SINK_GATT_SERVER_IAS_READONLY_CONFIG_BLK_ID 990
 
 typedef struct {
     unsigned short ImmediateAlertTimer_s;

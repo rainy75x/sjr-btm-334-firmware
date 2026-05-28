@@ -133,9 +133,5 @@ depend_Speaker_qcc512x_qcc302x/sink_display.o: ..\..\sink_display.c \
     ..\..\..\..\installed_libs\include\profiles\default_qcc512x_qcc302x\library.h \
     ..\..\..\..\installed_libs\include\firmware_qcc512x_qcc302x\panic.h \
     ..\..\..\..\installed_libs\include\firmware_qcc512x_qcc302x\message.h \
-    ..\..\..\..\installed_libs\include\profiles\default_qcc512x_qcc302x\display_plugin_if.h \
-    ..\..\sink_display_config_def.h \
-    ..\..\config_definition.h \
-    ..\..\..\..\installed_libs\include\profiles\default_qcc512x_qcc302x\display_plugin_midas.h \
-    ..\..\..\..\installed_libs\include\firmware_qcc512x_qcc302x\message.h 
+    ..\..\..\..\installed_libs\include\profiles\default_qcc512x_qcc302x\display_plugin_if.h 
 

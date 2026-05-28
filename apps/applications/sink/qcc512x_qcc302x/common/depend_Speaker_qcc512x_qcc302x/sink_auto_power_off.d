@@ -66,11 +66,6 @@ depend_Speaker_qcc512x_qcc302x/sink_auto_power_off.o: ..\..\sink_auto_power_off.
     ..\..\..\..\installed_libs\include\profiles\default_qcc512x_qcc302x\connection.h \
     ..\..\..\..\installed_libs\include\profiles\default_qcc512x_qcc302x\connection_no_ble.h \
     ..\..\sink_gatt_hid_remote_control.h \
-    ..\..\sink_input_manager.h \
-    ..\..\sink_states.h \
-    ..\..\sink_inputmanager_config_def.h \
-    ..\..\config_definition.h \
-    ..\..\..\..\installed_libs\include\firmware_qcc512x_qcc302x\message.h \
     ..\..\..\..\installed_libs\include\firmware_qcc512x_qcc302x\message.h \
     ..\..\..\..\installed_libs\include\firmware_qcc512x_qcc302x\panic.h \
     ..\..\..\..\installed_libs\include\profiles\default_qcc512x_qcc302x\bdaddr.h \
@@ -171,10 +166,6 @@ depend_Speaker_qcc512x_qcc302x/sink_auto_power_off.o: ..\..\sink_auto_power_off.
     ..\..\..\..\installed_libs\include\profiles\default_qcc512x_qcc302x\broadcast.h \
     ..\..\..\..\installed_libs\include\firmware_qcc512x_qcc302x\message.h \
     ..\..\..\..\installed_libs\include\profiles\default_qcc512x_qcc302x\bdaddr.h \
-    ..\..\..\..\installed_libs\include\profiles\default_qcc512x_qcc302x\gatt_fast_pair_server.h \
-    ..\..\..\..\installed_libs\include\firmware_qcc512x_qcc302x\message.h \
-    ..\..\..\..\installed_libs\include\profiles\default_qcc512x_qcc302x\library.h \
-    ..\..\..\..\installed_libs\include\profiles\default_qcc512x_qcc302x\gatt_manager.h \
     ..\..\sink_ba.h \
     ..\..\sink_events.h \
     ..\..\..\..\installed_libs\include\profiles\default_qcc512x_qcc302x\connection.h \

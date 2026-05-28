@@ -206,21 +206,5 @@ depend_Speaker_qcc512x_qcc302x/sink_powermanager.o: ..\..\sink_powermanager.c \
     ..\..\..\..\installed_libs\include\firmware_qcc512x_qcc302x\message.h \
     ..\..\..\..\installed_libs\include\firmware_qcc512x_qcc302x\stream.h \
     ..\..\..\..\installed_libs\include\profiles\default_qcc512x_qcc302x\audio_plugin_if.h \
-    ..\..\..\..\installed_libs\include\profiles\default_qcc512x_qcc302x\audio_instance.h \
-    ..\..\sink_power_manager_config_def.h \
-    ..\..\config_definition.h \
-    ..\..\sink_power_manager_vref_config_def.h \
-    ..\..\config_definition.h \
-    ..\..\sink_power_manager_vbat_config_def.h \
-    ..\..\config_definition.h \
-    ..\..\sink_power_manager_vthm_config_def.h \
-    ..\..\config_definition.h \
-    ..\..\sink_power_manager_vchg_config_def.h \
-    ..\..\config_definition.h \
-    ..\..\sink_power_manager_pmu_monitor_config_def.h \
-    ..\..\config_definition.h \
-    ..\..\sink_power_manager_charger_configuration_config_def.h \
-    ..\..\config_definition.h \
-    ..\..\sink_power_manager_charger_bc12_config_def.h \
-    ..\..\config_definition.h 
+    ..\..\..\..\installed_libs\include\profiles\default_qcc512x_qcc302x\audio_instance.h 
 

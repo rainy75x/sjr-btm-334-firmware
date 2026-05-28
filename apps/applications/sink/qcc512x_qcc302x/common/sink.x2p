@@ -1,5 +1,5 @@
 ﻿<?xml version="1.0" encoding="UTF-8"?>
-<project name="sink" path="">
+<project name="sink" path="C:/Users/Rainy75/Documents/Qualcomm/QCC3034/SINK/apps/applications/sink/qcc512x_qcc302x/common/">
     <configurations defaultKit="kitres://{8c4e77ed-c5b5-4e4b-a9b2-3c8086459e75}">
         <configuration name="Activity_Monitoring_Headset" kit="kitres://{8c4e77ed-c5b5-4e4b-a9b2-3c8086459e75}" options="clean|build|deploy|run">
             <deployProject>deploy</deployProject>
@@ -210,12 +210,12 @@
             <property name="adk_nfc" alias="DEFS"></property>
             <property name="afh_update_method" alias="DEFS"></property>
             <property name="ahi_transport" alias="DEFS">ENABLE_AHI_USB_HOST</property>
-            <property name="battery_operation" alias="DEFS">ENABLE_BATTERY_OPERATION ENABLE_CHARGER_V2 ENABLE_USB_TYPE_C</property>
+            <property name="battery_operation" alias="DEFS"></property>
             <property name="ble_power_off_behaviour" alias="DEFS">BLE_ENABLED_WHEN_OFF</property>
             <property name="device_id_pskey" alias="DEFS">DEVICE_ID_PSKEY</property>
-            <property name="display_scrolling" alias="DEFS">ENABLE_DISPLAY ENABLE_DISPLAY_MIDAS</property>
+            <property name="display_scrolling" alias="DEFS"></property>
             <property name="enable_active_noise_cancelling" alias="DEFS"></property>
-            <property name="enable_allow_usb_debug" alias="DEFS"></property>
+            <property name="enable_allow_usb_debug" alias="DEFS">ENABLE_ALLOW_USB_DEBUG</property>
             <property name="enable_anc_tuning_mode" alias="DEFS"></property>
             <property name="enable_audio_clock" alias="DEFS">ENABLE_AUDIO_CLOCK</property>
             <property name="enable_audio_ttp" alias="DEFS">ENABLE_AUDIO_TTP</property>
@@ -230,29 +230,29 @@
             <property name="enable_findme_client" alias="DEFS">GATT_IAS_CLIENT</property>
             <property name="enable_gaa_ble" alias="DEFS"></property>
             <property name="enable_gaia" alias="DEFS">ENABLE_GAIA</property>
-            <property name="enable_gaia_persistent_user_eq_bank" alias="DEFS"></property>
-            <property name="enable_gaia_rfcomm" alias="DEFS"></property>
+            <property name="enable_gaia_persistent_user_eq_bank" alias="DEFS">ENABLE_GAIA_PERSISTENT_USER_EQ_BANK</property>
+            <property name="enable_gaia_rfcomm" alias="DEFS">ENABLE_GAIA_RFCOMM</property>
             <property name="enable_gatt" alias="DEFS">GATT_ENABLED</property>
             <property name="enable_gatt_ancs_client" alias="DEFS">GATT_ANCS_CLIENT</property>
-            <property name="enable_gatt_battery_server" alias="DEFS">GATT_BATTERY_SERVER</property>
-            <property name="enable_gatt_fast_pair_server" alias="DEFS">GATT_FP_SERVER</property>
+            <property name="enable_gatt_battery_server" alias="DEFS"></property>
+            <property name="enable_gatt_fast_pair_server" alias="DEFS"></property>
             <property name="enable_gatt_findme_server" alias="DEFS">GATT_IAS_SERVER</property>
-            <property name="enable_gatt_peer_battery_server" alias="DEFS">GATT_BATTERY_SERVER_PEER</property>
-            <property name="enable_gatt_proximity_server" alias="DEFS">GATT_IAS_SERVER GATT_LLS_SERVER GATT_TPS_SERVER</property>
-            <property name="enable_gatt_remote_battery_server" alias="DEFS">GATT_BATTERY_SERVER_REMOTE</property>
+            <property name="enable_gatt_peer_battery_server" alias="DEFS"></property>
+            <property name="enable_gatt_proximity_server" alias="DEFS"></property>
+            <property name="enable_gatt_remote_battery_server" alias="DEFS"></property>
             <property name="enable_heart_rate_server" alias="DEFS"></property>
-            <property name="enable_hi_res_audio" alias="DEFS"></property>
-            <property name="enable_hid_client" alias="DEFS">GATT_BATTERY_CLIENT GATT_DIS_CLIENT GATT_SPC_CLIENT GATT_HID_CLIENT</property>
+            <property name="enable_hi_res_audio" alias="DEFS">HI_RES_AUDIO </property>
+            <property name="enable_hid_client" alias="DEFS"></property>
             <property name="enable_hid_selfie" alias="DEFS"></property>
             <property name="enable_hrs_client" alias="DEFS"></property>
             <property name="enable_linkkey_display" alias="DEFS"></property>
             <property name="enable_mapc" alias="DEFS"></property>
             <property name="enable_partymode" alias="DEFS"></property>
             <property name="enable_pbap" alias="DEFS">ENABLE_PBAP</property>
-            <property name="enable_peer_battery_level" alias="DEFS">ENABLE_PEER_BATTERY_LEVEL</property>
-            <property name="enable_peer_device" alias="DEFS">ENABLE_PEER PEER_TWS PEER_AVRCP</property>
+            <property name="enable_peer_battery_level" alias="DEFS"></property>
+            <property name="enable_peer_device" alias="DEFS"></property>
             <property name="enable_random_address" alias="DEFS"></property>
-            <property name="enable_upgrade" alias="DEFS">ENABLE_UPGRADE</property>
+            <property name="enable_upgrade" alias="DEFS"></property>
             <property name="enable_usb" alias="DEFS">ENABLE_USB</property>
             <property name="enable_usb_audio" alias="DEFS">ENABLE_USB_AUDIO</property>
             <property name="enable_usb_hid_upgrade" alias="DEFS">ENABLE_USB_HID_UPGRADE</property>
@@ -262,12 +262,12 @@
             <property name="gatt_gaia_server" alias="DEFS">GATT_GAIA_SERVER</property>
             <property name="include_a2dp_extra_codecs" alias="DEFS">INCLUDE_A2DP_EXTRA_CODECS</property>
             <property name="include_aptx_acl_sprint" alias="DEFS">INCLUDE_APTX_ACL_SPRINT</property>
-            <property name="include_aptx_adaptive" alias="DEFS"></property>
+            <property name="include_aptx_adaptive" alias="DEFS">INCLUDE_APTX_ADAPTIVE</property>
             <property name="include_dsp" alias="DEFS">INCLUDE_DSP</property>
             <property name="sbc_encoder_conformance" alias="DEFS"></property>
             <property name="test_hf_indicators" alias="DEFS"></property>
             <property name="test_scom" alias="DEFS"></property>
-            <property name="three_way_calling" alias="DEFS">THREE_WAY_CALLING</property>
+            <property name="three_way_calling" alias="DEFS"></property>
             <property name="usb_app_stereo" alias="DEFS">ENABLE_USB_AUDIO_APP_STEREO_DESCRIPTORS</property>
             <property name="usb_hub" alias="DEFS">ENABLE_USB_HUB_SUPPORT</property>
         </configuration>

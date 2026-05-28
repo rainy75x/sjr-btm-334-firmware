@@ -20,7 +20,7 @@ DESCRIPTION
 
 #include "config_definition.h"
 
-#define SINK_SEC_READONLY_CONFIG_BLK_ID 1448
+#define SINK_SEC_READONLY_CONFIG_BLK_ID 1160
 
 typedef struct {
     unsigned short BrEdrAuthenticatedPayloadTO_s;

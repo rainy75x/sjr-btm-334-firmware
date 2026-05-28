@@ -121,150 +121,72 @@
                 key="AVRCP Enable and Audio Switching Mask Bitfields" />
             <enum 
                 value="979" 
-                key="BLE Input Monitor RO" />
-            <enum 
-                value="993" 
-                key="Input Managet Look-up Table" />
-            <enum 
-                value="1081" 
                 key="BLE" />
             <enum 
-                value="1087" 
+                value="985" 
                 key="ANCS_readonly" />
             <enum 
-                value="1092" 
+                value="990" 
                 key="Find Me Server" />
             <enum 
-                value="1097" 
+                value="995" 
                 key="Find Me Common" />
             <enum 
-                value="1102" 
-                key="Proximity_readonly" />
-            <enum 
-                value="1108" 
+                value="1000" 
                 key="PBAP_readonly" />
             <enum 
-                value="1113" 
+                value="1005" 
                 key="GAIA_readonly" />
             <enum 
-                value="1119" 
+                value="1011" 
                 key="GAIA_pio_translation" />
             <enum 
-                value="1126" 
-                key="Sink Peer Writeable" />
-            <enum 
-                value="1136" 
-                key="Sink Peer Readonly" />
-            <enum 
-                value="1152" 
+                value="1018" 
                 key="Sink Wired Volume" />
             <enum 
-                value="1162" 
+                value="1028" 
                 key="Sink Wired Readonly Config Data" />
             <enum 
-                value="1173" 
+                value="1039" 
                 key="Sink Wired SPDIF Config Data" />
             <enum 
-                value="1178" 
+                value="1044" 
                 key="Sink Wired I2S Config Data" />
             <enum 
-                value="1255" 
+                value="1121" 
                 key="USB RO" />
             <enum 
-                value="1262" 
+                value="1128" 
                 key="USB RW" />
             <enum 
-                value="1268" 
+                value="1134" 
                 key="USB Power RO" />
             <enum 
-                value="1294" 
-                key="USB Power Proprietary RO" />
-            <enum 
-                value="1318" 
-                key="Sink Power Manager" />
-            <enum 
-                value="1323" 
-                key="Sink Gas Gauge Actions" />
-            <enum 
-                value="1329" 
-                key="PMU Charger Monitor" />
-            <enum 
-                value="1340" 
-                key="Sink Power Readonly Vref" />
-            <enum 
-                value="1346" 
-                key="Sink Power Readonly Vbat" />
-            <enum 
-                value="1371" 
-                key="BC 1.2" />
-            <enum 
-                value="1379" 
-                key="Sink Power Readonly Vthm" />
-            <enum 
-                value="1394" 
-                key="Charger Vthm Control" />
-            <enum 
-                value="1414" 
-                key="Sink Power Readonly Vchg" />
-            <enum 
-                value="1420" 
-                key="External Charger" />
-            <enum 
-                value="1425" 
-                key="Charger Progress" />
-            <enum 
-                value="1431" 
-                key="Charger Currents" />
-            <enum 
-                value="1436" 
-                key="Charger Safety" />
-            <enum 
-                value="1443" 
-                key="Voltage Selector" />
-            <enum 
-                value="1448" 
+                value="1160" 
                 key="Sink Secure Connection" />
             <enum 
-                value="1454" 
+                value="1166" 
                 key="sink_dormant_mode" />
             <enum 
-                value="1459" 
-                key="Sink Upgrade Readonly" />
-            <enum 
-                value="1464" 
-                key="Sink Display" />
-            <enum 
-                value="1469" 
+                value="1171" 
                 key="Settings" />
             <enum 
-                value="1474" 
+                value="1176" 
                 key="Use Case Table" />
             <enum 
-                value="1550" 
+                value="1252" 
                 key="TTP Latency Config" />
             <enum 
-                value="1563" 
+                value="1265" 
                 key="DSP Capability Bundle Files" />
             <enum 
-                value="1905" 
+                value="1607" 
                 key="Configure DSP Capability IDs" />
         </DefineBlockList>
-        <DefineModule 
-            ConfigBlock="PMU Charger Monitor" 
-            Hash="7b54931354ef30fb7047159eac3362ec" 
-            Id="sink_power_manager_pmu_monitor_disabled" />
         <DefineModule 
             ConfigBlock="AVRCP Enable and Audio Switching Mask Bitfields" 
             Hash="fdbe944912cd330eacd151dc80114e4e" 
             Id="Sink_avrcp" />
-        <DefineModule 
-            ConfigBlock="Sink Power Readonly Vbat" 
-            Hash="e36187ea8ce202ebb3eced9a5279d087" 
-            Id="sink_powermanager_onchip_vbat" />
-        <DefineModule 
-            ConfigBlock="Sink Display" 
-            Hash="372e4607f8a7564558a10b0b56d74cca" 
-            Id="sink_display" />
         <DefineModule 
             ConfigBlock="PBAP_readonly" 
             Hash="94967fdc6d43afe9b9493d79cd92663e" 
@@ -278,9 +200,9 @@
             Hash="2cae3631e1468b4a7c52b9484d62c7a6" 
             Id="sink_audio_routing" />
         <DefineModule 
-            ConfigBlock="Charger Safety,External Charger,Charger Currents,Charger Progress,Voltage Selector" 
-            Hash="9d3bf2394f2b76ce246f1fd1d4f126eb" 
-            Id="sink_powermanager_onchip_charger_configuration" />
+            ConfigBlock="USB Power RO" 
+            Hash="8b3e98ecae58d3d9a2f63ae968527d4f" 
+            Id="Sink_USB_Charger_v1" />
         <DefineModule 
             ConfigBlock="Event Tones,Sink Tones Readonly,ConfigToneData" 
             Hash="ed228a32cd40ea53c9591811e84443d5" 
@@ -290,10 +212,6 @@
             Hash="c1468d9f0e559d8110898cff42b9d342" 
             Id="Sink_audio_prompts" />
         <DefineModule 
-            ConfigBlock="Sink Peer Writeable,Sink Peer Readonly" 
-            Hash="861cf9f296f2df385461808d4b87da22" 
-            Id="sink_peer" />
-        <DefineModule 
             ConfigBlock="PIO Writeable,PIO Function Configuration,PIO" 
             Hash="46daa43ce023155a0b842644ce8cde88" 
             Id="Sink_pio" />
@@ -302,17 +220,13 @@
             Hash="04ee29eb5ed267ef49bac55880e6efc6" 
             Id="sink_button" />
         <DefineModule 
-            ConfigBlock="Input Managet Look-up Table" 
-            Hash="58a6fef08acd2fa0390ea123958577bd" 
-            Id="Sink_inputmanager" />
-        <DefineModule 
             ConfigBlock="DSP Capability Bundle Files" 
             Hash="7c0db25d56eaa67e19be50c365c1bd2d" 
             Id="sink_downloadable_capabilities" />
         <DefineModule 
-            ConfigBlock="Charger Vthm Control,Sink Power Readonly Vthm" 
-            Hash="1c9e18c039a1bb5098129520c613e67c" 
-            Id="sink_powermanager_onchip_vthm" />
+            ConfigBlock="sink dut readonly" 
+            Hash="83febb4a9e29bc2a8695e2794e5c2054" 
+            Id="Sink_dut" />
         <DefineModule 
             ConfigBlock="Sink Secure Connection" 
             Hash="616f1beeeaaaf4c7099e06a169c42c20" 
@@ -338,37 +252,17 @@
             Hash="91577b9e3911391cb4a6a10d70ce7479" 
             Id="sink_dsp_capabilities" />
         <DefineModule 
-            ConfigBlock="Sink Upgrade Readonly" 
-            Hash="e82b81cb8891e6da8cb1babd5359b8f4" 
-            Id="sink_upgrade_default" />
-        <DefineModule 
-            ConfigBlock="USB Power RO" 
-            Hash="8b3e98ecae58d3d9a2f63ae968527d4f" 
-            Id="Sink_USB_Onchip_Charger" />
-        <DefineModule 
             ConfigBlock="SinkInquiry" 
             Hash="e7418ef6ac551123094d454af2a6eeb4" 
             Id="Sink_inquiry" />
-        <DefineModule 
-            ConfigBlock="USB Power Proprietary RO" 
-            Hash="0d9960825ae4fbfbe9c3a707df76a667" 
-            Id="Sink_USB_Onchip_Proprietary_Charger" />
         <DefineModule 
             ConfigBlock="SinkMultiChannel" 
             Hash="b2f7be4224ad7adda824f704873c2bbd" 
             Id="sink_multi_channel" />
         <DefineModule 
-            ConfigBlock="sink dut readonly" 
-            Hash="83febb4a9e29bc2a8695e2794e5c2054" 
-            Id="Sink_dut" />
-        <DefineModule 
             ConfigBlock="Device and Software Version Module" 
             Hash="30af869d23ca0ee19c2d2e5eca93aad7" 
             Id="sink_device_id" />
-        <DefineModule 
-            ConfigBlock="Sink Power Readonly Vref" 
-            Hash="2230049c6a8784dc42a401dd5d30d26d" 
-            Id="sink_powermanager_onchip_vref" />
         <DefineModule 
             ConfigBlock="BLE" 
             Hash="7f8ba02dc860ba263701410da0871dec" 
@@ -402,14 +296,6 @@
             Hash="bf80085f36622d262e03eee24799642a" 
             Id="sink_low_power_mode" />
         <DefineModule 
-            ConfigBlock="BC 1.2" 
-            Hash="b0988b337193469aec0144749cbd3fd7" 
-            Id="sink_powermanager_charger_bc12_enabled" />
-        <DefineModule 
-            ConfigBlock="Sink Gas Gauge Actions,Sink Power Manager" 
-            Hash="f54aa9b76b6ebf9098bc686a2a1df38c" 
-            Id="sink_power_manager" />
-        <DefineModule 
             ConfigBlock="Sink Wired SPDIF Config Data,Sink Wired Readonly Config Data,Sink Wired I2S Config Data,Sink Wired Volume" 
             Hash="4207b8a556cd30ab86fc00cd819afe86" 
             Id="sink_wired" />
@@ -418,21 +304,9 @@
             Hash="e0c48af04e42c442bfc4200b54ed7782" 
             Id="Sink_volume" />
         <DefineModule 
-            ConfigBlock="Sink Power Readonly Vchg" 
-            Hash="ac644473a82f213228a664047e8b37c0" 
-            Id="sink_powermanager_onchip_vchg" />
-        <DefineModule 
-            ConfigBlock="Proximity_readonly" 
-            Hash="41865ede98a282d34a0fb0b5978b146e" 
-            Id="Sink_gatt_server_lls" />
-        <DefineModule 
             ConfigBlock="States,LED Session Config Block,Events,Filters,LED Config Readable Block" 
             Hash="42a821ed384cb0914915a9999871500d" 
             Id="sink_led" />
-        <DefineModule 
-            ConfigBlock="BLE Input Monitor RO" 
-            Hash="bb5e8b347ddeec6e63bc3f3f19ebf59f" 
-            Id="sink_gatt_hid_remote_control" />
         <DefineList 
             ShortId="g_user_event" 
             Id="User Event" >
@@ -3593,186 +3467,6 @@
                 value="5" />
         </DefineList>
         <DefineList 
-            ShortId="data_line_voltages" 
-            Id="Data Line Voltages" >
-            <enum 
-                key="0.0V" 
-                value="0" />
-            <enum 
-                key="0.1V" 
-                value="100" />
-            <enum 
-                key="0.2V" 
-                value="200" />
-            <enum 
-                key="0.3V" 
-                value="300" />
-            <enum 
-                key="0.4V" 
-                value="400" />
-            <enum 
-                key="0.5V" 
-                value="500" />
-            <enum 
-                key="0.6V" 
-                value="600" />
-            <enum 
-                key="0.7V" 
-                value="700" />
-            <enum 
-                key="0.8V" 
-                value="800" />
-            <enum 
-                key="0.9V" 
-                value="900" />
-            <enum 
-                key="1.0V" 
-                value="1000" />
-            <enum 
-                key="1.1V" 
-                value="1100" />
-            <enum 
-                key="1.2V" 
-                value="1200" />
-            <enum 
-                key="1.3V" 
-                value="1300" />
-            <enum 
-                key="1.4V" 
-                value="1400" />
-            <enum 
-                key="1.5V" 
-                value="1500" />
-            <enum 
-                key="1.6V" 
-                value="1600" />
-            <enum 
-                key="1.7V" 
-                value="1700" />
-            <enum 
-                key="1.8V" 
-                value="1800" />
-            <enum 
-                key="1.9V" 
-                value="1900" />
-            <enum 
-                key="2.0V" 
-                value="2000" />
-            <enum 
-                key="2.1V" 
-                value="2100" />
-            <enum 
-                key="2.2V" 
-                value="2200" />
-            <enum 
-                key="2.3V" 
-                value="2300" />
-            <enum 
-                key="2.4V" 
-                value="2400" />
-            <enum 
-                key="2.5V" 
-                value="2500" />
-            <enum 
-                key="2.6V" 
-                value="2600" />
-            <enum 
-                key="2.7V" 
-                value="2700" />
-            <enum 
-                key="2.8V" 
-                value="2800" />
-            <enum 
-                key="2.9V" 
-                value="2900" />
-            <enum 
-                key="3.0V" 
-                value="3000" />
-        </DefineList>
-        <DefineList 
-            ShortId="data_line_tolerance" 
-            Id="Data Line Tolerance" >
-            <enum 
-                key="0.1V" 
-                value="100" />
-            <enum 
-                key="0.2V" 
-                value="200" />
-            <enum 
-                key="0.3V" 
-                value="300" />
-            <enum 
-                key="0.4V" 
-                value="400" />
-            <enum 
-                key="0.5V" 
-                value="500" />
-        </DefineList>
-        <DefineList 
-            ShortId="standby_fast_hysteresis" 
-            Id="Standby-Fast Hysteresis" >
-            <enum 
-                key="100mV" 
-                value="0" />
-            <enum 
-                key="150mV" 
-                value="1" />
-            <enum 
-                key="200mV" 
-                value="2" />
-            <enum 
-                key="250mV" 
-                value="3" />
-        </DefineList>
-        <DefineList 
-            ShortId="pre_fast_threshold" 
-            Id="Pre-Fast Threshold" >
-            <enum 
-                key="2.5V" 
-                value="0" />
-            <enum 
-                key="2.9V" 
-                value="1" />
-            <enum 
-                key="3.0V" 
-                value="2" />
-            <enum 
-                key="3.1V" 
-                value="3" />
-        </DefineList>
-        <DefineList 
-            ShortId="iterm_ctrl_percentage" 
-            Id="Iterm Control Percentage" >
-            <enum 
-                key="10%" 
-                value="0" />
-            <enum 
-                key="20%" 
-                value="1" />
-            <enum 
-                key="30%" 
-                value="2" />
-            <enum 
-                key="40%" 
-                value="3" />
-        </DefineList>
-        <DefineList 
-            ShortId="state_change_debounce" 
-            Id="State Change Debounce" >
-            <enum 
-                key="Off" 
-                value="0" />
-            <enum 
-                key="4ms" 
-                value="1" />
-            <enum 
-                key="32ms" 
-                value="2" />
-            <enum 
-                key="128ms" 
-                value="3" />
-        </DefineList>
-        <DefineList 
             ShortId="wakeup_xio" 
             Id="Wakeup Sources" >
             <enum 
@@ -5425,146 +5119,6 @@
             </ConfigItem>
         </DefinePattern>
         <DefinePattern 
-            PatternName="SinkGattHIDRC_LookupTable" 
-            ShortId="gattHidRcLookupTable" >
-            <ConfigItem 
-                LocationItem="BlockId=Relative, Word=1, Bit=0, Size=4" 
-                ShortId="input_id" 
-                Type="enum" 
-                Id="BLE Virtual Button ID" 
-                Desc="The 'Virtual Button' ID the HID code translates to (allows up to 16 RC buttons to be supported)" >
-                <List 
-                    use="virtual_buttons" />
-            </ConfigItem>
-            <ConfigItem 
-                ShortId="hid_code" 
-                PresentHex="true" 
-                LocationItem="BlockId=Relative, Word=1, Bit=4, Size=12" 
-                Type="uint" 
-                Id="BLE HID Code [hex]" 
-                Desc="The HID Code sent by the remote control, Consumer HID has some values that are 12-bit length)" />
-        </DefinePattern>
-        <DefinePattern 
-            PatternName="Input Manager States and Events" 
-            ShortId="eventLookupTable" >
-            <ConfigItem 
-                ShortId="mask" 
-                PresentHex="false" 
-                LocationItem="BlockId=Relative, Word=1, Bit=0, Size=16" 
-                Type="bitfield" 
-                Id="Virtual Button ID(s) Assigned" 
-                Desc="The 'Virtual Button' IDs allow you to map one or more IR or BLE inputs onto a User Event." >
-                <bitfield 
-                    key="vb0" 
-                    value="0" />
-                <bitfield 
-                    key="vb1" 
-                    value="1" />
-                <bitfield 
-                    key="vb2" 
-                    value="2" />
-                <bitfield 
-                    key="vb3" 
-                    value="3" />
-                <bitfield 
-                    key="vb4" 
-                    value="4" />
-                <bitfield 
-                    key="vb5" 
-                    value="5" />
-                <bitfield 
-                    key="vb6" 
-                    value="6" />
-                <bitfield 
-                    key="vb7" 
-                    value="7" />
-                <bitfield 
-                    key="vb8" 
-                    value="8" />
-                <bitfield 
-                    key="vb9" 
-                    value="9" />
-                <bitfield 
-                    key="vb10" 
-                    value="10" />
-                <bitfield 
-                    key="vb11" 
-                    value="11" />
-                <bitfield 
-                    key="vb12" 
-                    value="12" />
-                <bitfield 
-                    key="vb13" 
-                    value="13" />
-                <bitfield 
-                    key="vb14" 
-                    value="14" />
-                <bitfield 
-                    key="vb15" 
-                    value="15" />
-            </ConfigItem>
-            <ConfigItem 
-                ShortId="state_mask" 
-                PresentHex="true" 
-                LocationItem="BlockId=Relative, Word=2, Bit=0, Size=16" 
-                Type="bitfield" 
-                Id="Input Active State Mask [hex]" 
-                Desc="The application state(s) for which the event *user_event* will be valid" >
-                <List 
-                    use="g_states" />
-            </ConfigItem>
-            <ConfigItem 
-                LocationItem="BlockId=Relative, Word=3, Bit=2, Size=4" 
-                ShortId="input_event" 
-                Type="enum" 
-                Id="Virtual Button Event" 
-                Desc="Which 'Virtual Button' event is required to cause the User event to trigger" >
-                <enum 
-                    key="VirtualButtonDown" 
-                    value="0" />
-                <enum 
-                    key="VirtualButtonVShortRelease" 
-                    value="1" />
-                <enum 
-                    key="VirtualButtonShortTimer" 
-                    value="2" />
-                <enum 
-                    key="VirtualButtonShortRelease" 
-                    value="3" />
-                <enum 
-                    key="VirtualButtonLongTimer" 
-                    value="4" />
-                <enum 
-                    key="VirtualButtonLongRelease" 
-                    value="5" />
-                <enum 
-                    key="VirtualButtonVLongTimer" 
-                    value="6" />
-                <enum 
-                    key="VirtualButtonVLongRelease" 
-                    value="7" />
-                <enum 
-                    key="VirtualButtonVVLongTimer" 
-                    value="8" />
-                <enum 
-                    key="VirtualButtonVVLongRelease" 
-                    value="9" />
-                <enum 
-                    key="VirtualButtonRepeatTimer" 
-                    value="10" />
-            </ConfigItem>
-            <ConfigItem 
-                ShortId="user_event" 
-                ShowOrdered="true" 
-                LocationItem="BlockId=Relative, Word=3, Bit=6, Size=10" 
-                Type="enum" 
-                Id="Triggered User Event" 
-                Desc="The Application User Event that will be triggered when the Virtual Button event meets the required conditions (this is offset from EVENTS_USR_MESSAGE_BASE, (i.e. for EventUsrPowerOn, this value will be set to 1)" >
-                <List 
-                    use="g_user_event" />
-            </ConfigItem>
-        </DefinePattern>
-        <DefinePattern 
             PatternName="GAIA PIO Pattern" 
             ShortId="gaia_pio_pattern" >
             <ConfigItem 
@@ -5580,66 +5134,6 @@
             </ConfigItem>
         </DefinePattern>
         <DefinePattern 
-            PatternName="Peer Device UUID" 
-            ShortId="peer_device_uuid" >
-            <ConfigItem 
-                ShortId="word_1" 
-                PresentHex="true" 
-                LocationItem="BlockId=Relative, Word=1, Bit=0, Size=16" 
-                Type="uint" 
-                Id="word 1 [hex]" 
-                Desc="word 1 [hex]" />
-            <ConfigItem 
-                ShortId="word_2" 
-                PresentHex="true" 
-                LocationItem="BlockId=Relative, Word=2, Bit=0, Size=16" 
-                Type="uint" 
-                Id="word 2 [hex]" 
-                Desc="word 2 [hex]" />
-            <ConfigItem 
-                ShortId="word_3" 
-                PresentHex="true" 
-                LocationItem="BlockId=Relative, Word=3, Bit=0, Size=16" 
-                Type="uint" 
-                Id="word 3 [hex]" 
-                Desc="word 3 [hex]" />
-            <ConfigItem 
-                ShortId="word_4" 
-                PresentHex="true" 
-                LocationItem="BlockId=Relative, Word=4, Bit=0, Size=16" 
-                Type="uint" 
-                Id="word 4 [hex]" 
-                Desc="word 4 [hex]" />
-            <ConfigItem 
-                ShortId="word_5" 
-                PresentHex="true" 
-                LocationItem="BlockId=Relative, Word=5, Bit=0, Size=16" 
-                Type="uint" 
-                Id="word 5 [hex]" 
-                Desc="word 5 [hex]" />
-            <ConfigItem 
-                ShortId="word_6" 
-                PresentHex="true" 
-                LocationItem="BlockId=Relative, Word=6, Bit=0, Size=16" 
-                Type="uint" 
-                Id="word 6 [hex]" 
-                Desc="word 6 [hex]" />
-            <ConfigItem 
-                ShortId="word_7" 
-                PresentHex="true" 
-                LocationItem="BlockId=Relative, Word=7, Bit=0, Size=16" 
-                Type="uint" 
-                Id="word 7 [hex]" 
-                Desc="word 7 [hex]" />
-            <ConfigItem 
-                ShortId="word_8" 
-                PresentHex="true" 
-                LocationItem="BlockId=Relative, Word=8, Bit=0, Size=16" 
-                Type="uint" 
-                Id="word 8 [hex]" 
-                Desc="word 8 [hex]" />
-        </DefinePattern>
-        <DefinePattern 
             PatternName="I2S Config" 
             ShortId="i2s_config" >
             <ConfigItem 
@@ -5653,13 +5147,13 @@
             PatternName="Sink Charge Current" 
             ShortId="sink_charge_current" >
             <ConfigItem 
-                LocationItem="BlockId=Relative, Word=2, Bit=12, Size=4" 
+                LocationItem="BlockId=Relative, Word=1, Bit=4, Size=4" 
                 ShortId="charger_config" 
                 Type="enum" 
                 Id="USB Charger Configuration" 
                 Desc="Title for this row in config tool" >
                 <enum 
-                    key="When USB Detached but Charger Connected" 
+                    key="When USB Disconnected" 
                     value="0" />
                 <enum 
                     key="When Suspended" 
@@ -5671,277 +5165,76 @@
                     key="When Attached Not Enum" 
                     value="3" />
                 <enum 
-                    key="When Connected To Standard Downstream Port" 
+                    key="When Attached Not Enum Trickle" 
                     value="4" />
                 <enum 
-                    key="When Connected To BC 1.2 Charging Port" 
+                    key="When Connected To Hub" 
                     value="5" />
                 <enum 
-                    key="When Connected To BC 1.2 Dedicated Charger" 
+                    key="When Connected To Hub Trickle Charge" 
                     value="6" />
                 <enum 
-                    key="When Connected To Type-C 1.5A Port" 
+                    key="When Connected To Charging Hub" 
                     value="7" />
                 <enum 
-                    key="When Connected To Type-C 3.0A Port" 
+                    key="When Connected To Dedicated Charger" 
                     value="8" />
                 <enum 
                     key="When Connected To Floating Data Line Charger" 
                     value="9" />
                 <enum 
-                    key="When Vchg Drops Below Vchg Termination Voltage" 
+                    key="When Vbus Drops" 
                     value="10" />
             </ConfigItem>
             <ConfigItem 
-                LocationItem="BlockId=Relative, Word=2, Bit=11, Size=1" 
+                LocationItem="BlockId=Relative, Word=1, Bit=1, Size=1" 
                 ShortId="charge" 
                 Type="bool" 
                 Id="Charger Enable" 
                 Desc="Set to use this entry to control the charger" />
             <ConfigItem 
-                LocationItem="BlockId=Relative, Word=2, Bit=10, Size=1" 
+                LocationItem="BlockId=Relative, Word=1, Bit=2, Size=2" 
+                ShortId="boost" 
+                Type="enum" 
+                Id="Boost Enable" 
+                Desc="Boost charging can be disabled or set to internal or externally controlled boost if the device and firmware revision supports it." >
+                <enum 
+                    key="Disabled" 
+                    value="0" />
+                <enum 
+                    key="Internal" 
+                    value="1" />
+                <enum 
+                    key="External" 
+                    value="2" />
+            </ConfigItem>
+            <ConfigItem 
+                LocationItem="BlockId=Relative, Word=1, Bit=0, Size=1" 
                 ShortId="vsel" 
                 Type="enum" 
-                Id="Vsel" 
-                Desc="Set this to BAT to force the device to run from battery. If this is set to CHG then the device will run from charger unless overridden by the Voltage Source Selector or Temperature Regions voltage source selectors." >
+                Id="Voltage Select" 
+                Desc="The voltage source for the IC can be set to CHARGER or Vbat" >
                 <List 
                     use="vsel" />
             </ConfigItem>
             <ConfigItem 
-                LocationItem="BlockId=Relative, Word=2, Bit=9, Size=1" 
+                LocationItem="BlockId=Relative, Word=2, Bit=15, Size=1" 
                 ShortId="power_off" 
                 Type="bool" 
                 Id="Power Off" 
                 Desc="When checked the application will reduce to the minimum power consumption possible. Useful for powering off the device at certain temperatures." />
             <ConfigItem 
-                LocationItem="BlockId=Relative, Word=2, Bit=8, Size=1" 
+                LocationItem="BlockId=Relative, Word=2, Bit=14, Size=1" 
                 ShortId="disable_leds" 
                 Type="bool" 
                 Id="Disable LEDs" 
                 Desc="When set the LEDs are disabled while charging." />
             <ConfigItem 
+                LocationItem="BlockId=Relative, Word=1, Bit=8, Size=8" 
                 ShortId="current" 
-                LocationItem="BlockId=Relative, Word=1, Bit=0, Size=16" 
-                Id="Max Current [mA]" 
                 Type="uint" 
-                Range="Min=0,Max=1800" 
-                Desc="Maximum charge current specified in mA." />
-        </DefinePattern>
-        <DefinePattern 
-            PatternName="Sink Proprietary Charge Current" 
-            ShortId="sink_proprietary_charge_current" >
-            <ConfigItem 
-                ShortId="dplus" 
-                ShowOrdered="true" 
-                LocationItem="BlockId=Relative, Word=1, Bit=0, Size=16" 
-                Type="enum" 
-                Id="D+ [V]" 
-                Desc="USB D+ voltage" >
-                <List 
-                    use="data_line_voltages" />
-            </ConfigItem>
-            <ConfigItem 
-                ShortId="dminus" 
-                ShowOrdered="true" 
-                LocationItem="BlockId=Relative, Word=2, Bit=0, Size=16" 
-                Type="enum" 
-                Id="D- [V]" 
-                Desc="USB D- voltage" >
-                <List 
-                    use="data_line_voltages" />
-            </ConfigItem>
-            <ConfigItem 
-                ShortId="tolerance" 
-                ShowOrdered="true" 
-                LocationItem="BlockId=Relative, Word=3, Bit=0, Size=16" 
-                Type="enum" 
-                Id="Tolerance [V]" 
-                Desc="Tolerance +/- [V]" >
-                <List 
-                    use="data_line_tolerance" />
-            </ConfigItem>
-            <ConfigItem 
-                LocationItem="BlockId=Relative, Word=5, Bit=15, Size=1" 
-                ShortId="charge" 
-                Type="bool" 
-                Id="Charger Enable" 
-                Desc="Set to use this entry to control the charger" />
-            <ConfigItem 
-                LocationItem="BlockId=Relative, Word=5, Bit=14, Size=1" 
-                ShortId="vsel" 
-                Type="enum" 
-                Id="Vsel" 
-                Desc="Set this to BAT to force the device to run from battery. If this is set to CHG then the device will run from charger unless overridden by the Voltage Source Selector or Temperature Regions voltage source selectors." >
-                <List 
-                    use="vsel" />
-            </ConfigItem>
-            <ConfigItem 
-                LocationItem="BlockId=Relative, Word=5, Bit=13, Size=1" 
-                ShortId="power_off" 
-                Type="bool" 
-                Id="Power Off" 
-                Desc="When checked the application will reduce to the minimum power consumption possible. Useful for powering off the device at certain temperatures." />
-            <ConfigItem 
-                LocationItem="BlockId=Relative, Word=5, Bit=12, Size=1" 
-                ShortId="disable_leds" 
-                Type="bool" 
-                Id="Disable LEDs" 
-                Desc="When set the LEDs are disabled while charging." />
-            <ConfigItem 
-                ShortId="current" 
-                LocationItem="BlockId=Relative, Word=4, Bit=0, Size=16" 
-                Id="Max Current [mA]" 
-                Type="uint" 
-                Range="Min=0,Max=1800" 
+                Id="Current [mA]" 
                 Desc="Charge current specified in mA." />
-        </DefinePattern>
-        <DefinePattern 
-            PatternName="Vbat Battery Threshold Configuration" 
-            ShortId="vbat_battery_threshold_config" >
-            <ConfigItem 
-                LocationItem="BlockId=Relative, Word=1, Bit=0, Size=16" 
-                ShortId="limit" 
-                Type="uint" 
-                Id="Vbat Battery Threshold Voltage [mV]" 
-                Desc="When Vbat (ie. the battery voltage level) crosses the threshold specified in this setting it will cause the mapped notification event to be raised." />
-            <ConfigItem 
-                ShortId="notify_period" 
-                Multiplier="10" 
-                LocationItem="BlockId=Relative, Word=3, Bit=8, Size=8" 
-                Type="uint" 
-                Id="Vbat Notify Interval [s]" 
-                Desc="0-2550 seconds in 10 second steps (rounded down)" />
-            <ConfigItem 
-                ShortId="sources" 
-                PresentHex="false" 
-                LocationItem="BlockId=Relative, Word=3, Bit=5, Size=3" 
-                Type="bitfield" 
-                Id="Vbat Trigger Source" 
-                Desc="The notification events raised can be configured to be sent during any of the specified operating modes." >
-                <bitfield 
-                    key="Automatic Sending" 
-                    value="0" />
-                <bitfield 
-                    key="On User Request for Battery Level" 
-                    value="1" />
-                <bitfield 
-                    key="On Initial Reading for Battery Level" 
-                    value="2" />
-            </ConfigItem>
-            <ConfigItem 
-                ShortId="event" 
-                ShowOrdered="true" 
-                LocationItem="BlockId=Relative, Word=2, Bit=0, Size=16" 
-                Type="enum" 
-                Id="Vbat User Event" 
-                Desc="The User or System Event mapped to the Vbat threshold transition." >
-                <List 
-                    use="g_user_event" 
-                    prefix="0x40" />
-                <List 
-                    use="g_system_event" />
-            </ConfigItem>
-        </DefinePattern>
-        <DefinePattern 
-            PatternName="Charger Configuration Settings" 
-            ShortId="charger_configuration_settings" >
-            <ConfigItem 
-                LocationItem="BlockId=Relative, Word=2, Bit=7, Size=4" 
-                ShortId="charger_vthm_region" 
-                Type="enum" 
-                Id="Charger Vthm Region" 
-                Desc="Vthm Limit Thresholds are set in Vthm Thermistor Configuration." >
-                <enum 
-                    key="Hottest region - Vthm up to Limit Threshold 1" 
-                    value="0" />
-                <enum 
-                    key="Limit Threshold 1 to 2" 
-                    value="1" />
-                <enum 
-                    key="Limit Threshold 2 to 3" 
-                    value="2" />
-                <enum 
-                    key="Limit Threshold 3 to 4" 
-                    value="3" />
-                <enum 
-                    key="Limit Threshold 4 to 5" 
-                    value="4" />
-                <enum 
-                    key="Limit Threshold 5 to 6" 
-                    value="5" />
-                <enum 
-                    key="Limit Threshold 6 to 7" 
-                    value="6" />
-                <enum 
-                    key="Coldest region - Vthm over Limit Threshold 7" 
-                    value="7" />
-            </ConfigItem>
-            <ConfigItem 
-                LocationItem="BlockId=Relative, Word=2, Bit=3, Size=1" 
-                ShortId="charge" 
-                Type="bool" 
-                Id="Charge" 
-                Desc="Set to use this entry to control the charger" />
-            <ConfigItem 
-                LocationItem="BlockId=Relative, Word=2, Bit=2, Size=1" 
-                ShortId="vsel" 
-                Type="enum" 
-                Id="Vsel" 
-                Desc="Set this to BAT to force the device to run from battery. If this is set to CHG then the device will run from charger unless overridden by the USB Power or Voltage Source Selector voltage source selectors." >
-                <enum 
-                    key="CHG" 
-                    value="0" />
-                <enum 
-                    key="BAT" 
-                    value="1" />
-            </ConfigItem>
-            <ConfigItem 
-                LocationItem="BlockId=Relative, Word=2, Bit=1, Size=1" 
-                ShortId="power_off" 
-                Type="bool" 
-                Id="Power Off" 
-                Desc="When checked the application will reduce to the minimum power consumption possible. Useful for powering off the device at certain temperatures." />
-            <ConfigItem 
-                LocationItem="BlockId=Relative, Word=2, Bit=0, Size=1" 
-                ShortId="disable_leds" 
-                Type="bool" 
-                Id="Disable Leds" 
-                Desc="When set the LEDs are disabled while charging." />
-            <ConfigItem 
-                ShortId="current" 
-                LocationItem="BlockId=Relative, Word=1, Bit=0, Size=16" 
-                Id="Max Current [mA]" 
-                Type="uint" 
-                Range="Min=0,Max=1800" 
-                Desc="Charge current specified in mA." />
-            <ConfigItem 
-                LocationItem="BlockId=Relative, Word=2, Bit=4, Size=3" 
-                ShortId="termination_type" 
-                Type="enum" 
-                Id="Termination Type" 
-                Desc="Either use the device default or specify a custom voltage limit to terminate charging." >
-                <enum 
-                    key="Vfloat" 
-                    value="0" />
-                <enum 
-                    key="Voltage" 
-                    value="1" />
-                <enum 
-                    key="N/a" 
-                    value="2" />
-            </ConfigItem>
-            <ConfigItem 
-                ShortId="termination_voltage" 
-                ShowOrdered="true" 
-                LocationItem="BlockId=Relative, Word=2, Bit=11, Size=5" 
-                Type="enum" 
-                Id="Voltage [V]" 
-                Desc="Termination voltage in V. Only used if Termination Type is Voltage." >
-                <List 
-                    use="vfloat" />
-                <List 
-                    use="vfloat_na" />
-            </ConfigItem>
         </DefinePattern>
         <DefinePattern 
             PatternName="Audio Clock Pattern" 
@@ -6076,7 +5369,7 @@
             Id="Configure DSP Capability IDs" >
             <ConfigPatternArray 
                 Pattern="dsp_capability_ids_entry" 
-                LocationPatternArray="BlockId=1905, Word=1, PatternSize=2" 
+                LocationPatternArray="BlockId=1607, Word=1, PatternSize=2" 
                 MaxNumPatterns="12" 
                 Id="DSP Capability ID Table Entry" />
         </ConfigGroup>
@@ -6085,7 +5378,7 @@
             Id="DSP Capability Bundle Files" >
             <ConfigPatternArray 
                 Pattern="cap_bundle_table_entry" 
-                LocationPatternArray="BlockId=1563, Word=1, PatternSize=26" 
+                LocationPatternArray="BlockId=1265, Word=1, PatternSize=26" 
                 FixedNumPatterns="13" 
                 Id="Bundle Files Table" />
         </ConfigGroup>
@@ -6301,12 +5594,12 @@
                         key="24 Bit Audio" />
                 </ConfigItem>
                 <ConfigItem 
-                    LocationItem="BlockId=1152, Word=1, Bit=0, Size=16" 
+                    LocationItem="BlockId=1018, Word=1, Bit=0, Size=16" 
                     Type="int" 
                     Id="Analogue Volume (Main)" 
                     Desc="Value is expressed in steps" />
                 <ConfigItem 
-                    LocationItem="BlockId=1152, Word=2, Bit=0, Size=16" 
+                    LocationItem="BlockId=1018, Word=2, Bit=0, Size=16" 
                     Type="int" 
                     Id="Analogue Volume (Aux)" 
                     Desc="Value is expressed in steps" />
@@ -6677,17 +5970,17 @@
                         key="MP3" />
                 </ConfigItem>
                 <ConfigItem 
-                    LocationItem="BlockId=1152, Word=3, Bit=0, Size=16" 
+                    LocationItem="BlockId=1018, Word=3, Bit=0, Size=16" 
                     Type="int" 
                     Id="S/PDIF Volume (Main)" 
                     Desc="Value is expressed in steps" />
                 <ConfigItem 
-                    LocationItem="BlockId=1152, Word=4, Bit=0, Size=16" 
+                    LocationItem="BlockId=1018, Word=4, Bit=0, Size=16" 
                     Type="int" 
                     Id="S/PDIF Volume (Aux)" 
                     Desc="Value is expressed in steps" />
                 <ConfigItem 
-                    LocationItem="BlockId=1173, Word=1, Bit=7, Size=1" 
+                    LocationItem="BlockId=1039, Word=1, Bit=7, Size=1" 
                     Type="enum" 
                     Id="SPDIF Input Resolution" 
                     Desc="This configuration item specifies the SPDIF Input audio bit resolution. Bit depth is fixed internally at 24 bit and this configuration item is only applicable to CSR8675 and CSR8676 parts. Note that only 16 bit config is valid for CSR8670. Furthermore it is supported for PCM audio over SPDIF only and not for any other coded audio." >
@@ -6699,7 +5992,7 @@
                         value="1" />
                 </ConfigItem>
                 <ConfigItem 
-                    LocationItem="BlockId=1173, Word=1, Bit=8, Size=8" 
+                    LocationItem="BlockId=1039, Word=1, Bit=8, Size=8" 
                     Type="uint" 
                     Id="Target Latency [ms]" 
                     Desc="Specifies the target latency, in ms. Expected to be in the range of 0 to 150ms. Note: this configuration item is only applicable to CSR8670 and CSR8675" />
@@ -6708,7 +6001,7 @@
                 Node="Basic" 
                 Id="I2S In" >
                 <ConfigItem 
-                    LocationItem="BlockId=1178, Word=13, Bit=7, Size=1" 
+                    LocationItem="BlockId=1044, Word=13, Bit=7, Size=1" 
                     Desc="This configuration item specifies the I2S Input audio bit resolution. Note: this configuration item is only relevant for I2S audio input. Furthermore it is only applicable to CSR8675 and CSR8676 parts and not for CSR8670." 
                     Type="enum" 
                     Id="Audio Input Resolution" >
@@ -6720,12 +6013,12 @@
                         key="24 bit audio" />
                 </ConfigItem>
                 <ConfigItem 
-                    LocationItem="BlockId=1152, Word=5, Bit=0, Size=16" 
+                    LocationItem="BlockId=1018, Word=5, Bit=0, Size=16" 
                     Type="int" 
                     Id="I2S Volume (Main)" 
                     Desc="Value is expressed in steps" />
                 <ConfigItem 
-                    LocationItem="BlockId=1152, Word=6, Bit=0, Size=16" 
+                    LocationItem="BlockId=1018, Word=6, Bit=0, Size=16" 
                     Type="int" 
                     Id="I2S Volume (Aux)" 
                     Desc="Value is expressed in steps" />
@@ -6744,17 +6037,17 @@
                 Node="Basic" 
                 Id="USB In" >
                 <ConfigItem 
-                    LocationItem="BlockId=1255, Word=2, Bit=0, Size=1" 
+                    LocationItem="BlockId=1121, Word=2, Bit=0, Size=1" 
                     Type="bool" 
                     Id="USB Audio Always Routed" 
                     Desc="When set the USB audio is routed even when it is not in use." />
                 <ConfigItem 
-                    LocationItem="BlockId=1255, Word=3, Bit=15, Size=1" 
+                    LocationItem="BlockId=1121, Word=3, Bit=15, Size=1" 
                     Type="bool" 
                     Id="USB Audio Paused When Source Switched" 
                     Desc="When set the USB audio is paused when switching from USB to another source." />
                 <ConfigItem 
-                    LocationItem="BlockId=1255, Word=2, Bit=1, Size=3" 
+                    LocationItem="BlockId=1121, Word=2, Bit=1, Size=3" 
                     Type="enum" 
                     Id="USB Plug-in Type" 
                     Desc="Sets the USB operating mode." >
@@ -6775,7 +6068,7 @@
                         value="4" />
                 </ConfigItem>
                 <ConfigItem 
-                    LocationItem="BlockId=1255, Word=2, Bit=12, Size=4" 
+                    LocationItem="BlockId=1121, Word=2, Bit=12, Size=4" 
                     Type="enum" 
                     Id="USB Voice Plug-in Index" 
                     Desc="Specifies the CVC plug-in to be used for Voice operating mode." >
@@ -6783,17 +6076,17 @@
                         use="cvc_plugins_available" />
                 </ConfigItem>
                 <ConfigItem 
-                    LocationItem="BlockId=1255, Word=2, Bit=8, Size=4" 
+                    LocationItem="BlockId=1121, Word=2, Bit=8, Size=4" 
                     Type="uint" 
                     Id="Attach Timeout [s]" 
                     Desc="If after attaching the USB it does not enumerate within the attach timeout, in seconds, the Sink will set low power boot mode." />
                 <ConfigItem 
-                    LocationItem="BlockId=1255, Word=2, Bit=4, Size=4" 
+                    LocationItem="BlockId=1121, Word=2, Bit=4, Size=4" 
                     Type="uint" 
                     Id="Deconfigure Timeout [s]" 
                     Desc="If the USB becomes deconfigured and no further action is taken within the deconfigured timeout period, in seconds, the Sink sets to low power boot mode." />
                 <ConfigItem 
-                    LocationItem="BlockId=1255, Word=1, Bit=0, Size=16" 
+                    LocationItem="BlockId=1121, Word=1, Bit=0, Size=16" 
                     Type="bitfield" 
                     Id="Class" 
                     Desc="USB Class of Device. Please note: if the device is being configured over USB HID AHI transport, changing this setting may cause the device to become temporarily unavailable for configuration. If this occurs, unplug and re-plug the device's USB connection to cause it to repeat enumeration with the Host. Then refresh the ADK Configuration Tool device list and reconnect the device to continue configuration." >
@@ -6817,12 +6110,12 @@
                         value="5" />
                 </ConfigItem>
                 <ConfigItem 
-                    LocationItem="BlockId=1262, Word=1, Bit=0, Size=16" 
+                    LocationItem="BlockId=1128, Word=1, Bit=0, Size=16" 
                     Type="uint" 
                     Id="USB Volume (Main)" 
                     Desc="Value is expressed in steps" />
                 <ConfigItem 
-                    LocationItem="BlockId=1262, Word=2, Bit=0, Size=16" 
+                    LocationItem="BlockId=1128, Word=2, Bit=0, Size=16" 
                     Type="uint" 
                     Id="USB Volume (Aux)" 
                     Desc="Value is expressed in steps" />
@@ -6970,12 +6263,12 @@ Warning: when the Audio Input Routing has been changed to I2S or SPDIF, the USB 
                     key="SPDIF" />
             </ConfigItem>
             <ConfigItem 
-                LocationItem="BlockId=1162, Word=7, Bit=10, Size=1" 
+                LocationItem="BlockId=1028, Word=7, Bit=10, Size=1" 
                 Desc="Setting this bit will result in the Sink playing from configured USB, SPDIF and analog inputs when in limbo." 
                 Type="bool" 
                 Id="Play from physical connections in limbo state" />
             <ConfigItem 
-                LocationItem="BlockId=1162, Word=7, Bit=14, Size=2" 
+                LocationItem="BlockId=1028, Word=7, Bit=14, Size=2" 
                 Desc="This configuration item specifies the audio instance for I2S Input. For QCC300x, if Audio Instance 1 is selected then PCM block 2 will be used instead of PCM block 1 for I2S input." 
                 Type="enum" 
                 Id="Audio Instance for I2S input" >
@@ -6983,7 +6276,7 @@ Warning: when the Audio Input Routing has been changed to I2S or SPDIF, the USB 
                     use="audio_instance" />
             </ConfigItem>
             <ConfigItem 
-                LocationItem="BlockId=1162, Word=7, Bit=12, Size=2" 
+                LocationItem="BlockId=1028, Word=7, Bit=12, Size=2" 
                 Desc="This configuration item specifies the audio instance for SPDIF Input. For QCC300x, if Audio Instance 1 is selected then PCM block 2 will be used instead of PCM block 1 for SPDIF input." 
                 Type="enum" 
                 Id="Audio Instance for SPDIF input" >
@@ -7093,7 +6386,7 @@ Hybrid: A combination of DSP and hardware scaling is employed in order to maximi
                     Id="Raw Command Data" >
                     <ConfigPatternArray 
                         Pattern="i2s_config" 
-                        LocationPatternArray="BlockId=1178, Word=14, PatternSize=1" 
+                        LocationPatternArray="BlockId=1044, Word=14, PatternSize=1" 
                         MaxNumPatterns="80" 
                         Id="I2C Data Word" />
                 </ConfigGroup>
@@ -7101,7 +6394,7 @@ Hybrid: A combination of DSP and hardware scaling is employed in order to maximi
                     Node="Basic" 
                     Id="Initialisation" >
                     <ConfigItem 
-                        LocationItem="BlockId=1178, Word=10, Bit=8, Size=8" 
+                        LocationItem="BlockId=1044, Word=10, Bit=8, Size=8" 
                         Desc="Specifies how many I2C Initialisation commands are specified in the Raw Command Data" 
                         Type="uint" 
                         Id="Number I2C Init Commands" />
@@ -7110,27 +6403,27 @@ Hybrid: A combination of DSP and hardware scaling is employed in order to maximi
                     Node="Basic" 
                     Id="Volume" >
                     <ConfigItem 
-                        LocationItem="BlockId=1178, Word=10, Bit=0, Size=8" 
+                        LocationItem="BlockId=1044, Word=10, Bit=0, Size=8" 
                         Desc="Specifies the number of individual I2C volume commands that will be sent to the I2S capable device every time a volume change is made." 
                         Type="uint" 
                         Id="Number I2C Volume Commands" />
                     <ConfigItem 
-                        LocationItem="BlockId=1178, Word=11, Bit=8, Size=8" 
+                        LocationItem="BlockId=1044, Word=11, Bit=8, Size=8" 
                         Desc="Specifies the offset, in words, of the first I2C Volume command specified in the Raw Command Data" 
                         Type="uint" 
                         Id="Volume Commands Offset" />
                     <ConfigItem 
-                        LocationItem="BlockId=1178, Word=1, Bit=0, Size=16" 
+                        LocationItem="BlockId=1044, Word=1, Bit=0, Size=16" 
                         Desc="Specifies the number of bits of the volume setting in the I2C command." 
                         Type="uint" 
                         Id="Volume Number of Bits" />
                     <ConfigItem 
-                        LocationItem="BlockId=1178, Word=2, Bit=0, Size=16" 
+                        LocationItem="BlockId=1044, Word=2, Bit=0, Size=16" 
                         Desc="Specifies the maximum volume value that will be sent to the I2S device to indicate maximum output level." 
                         Type="uint" 
                         Id="Volume Range Max" />
                     <ConfigItem 
-                        LocationItem="BlockId=1178, Word=3, Bit=0, Size=16" 
+                        LocationItem="BlockId=1044, Word=3, Bit=0, Size=16" 
                         Desc="Specifies the minimum volume value that will be sent to the I2S device to indicate minimum output level." 
                         Type="uint" 
                         Id="Volume Range Min" />
@@ -7139,18 +6432,18 @@ Hybrid: A combination of DSP and hardware scaling is employed in order to maximi
                     Node="Basic" 
                     Id="Shutdown" >
                     <ConfigItem 
-                        LocationItem="BlockId=1178, Word=11, Bit=0, Size=8" 
+                        LocationItem="BlockId=1044, Word=11, Bit=0, Size=8" 
                         Desc="Specifies the number of individual I2C commands that will be sent to the I2S capable device every time the device is shut down, i.e. on close of SCO or A2DP media stream." 
                         Type="uint" 
                         Id="Number I2C Shutdown Commands" />
                     <ConfigItem 
-                        LocationItem="BlockId=1178, Word=12, Bit=8, Size=8" 
+                        LocationItem="BlockId=1044, Word=12, Bit=8, Size=8" 
                         Desc="Specifies the offset, in words, of the first I2C Shutdown command specified in the Raw Command Data" 
                         Type="uint" 
                         Id="Shutdown Commands Offset" />
                 </ConfigGroup>
                 <ConfigItem 
-                    LocationItem="BlockId=1178, Word=12, Bit=0, Size=8" 
+                    LocationItem="BlockId=1044, Word=12, Bit=0, Size=8" 
                     Desc="Specifies the PIO to enable external I2S device." 
                     Type="enum" 
                     Id="External I2s device Enable PIO" >
@@ -7161,7 +6454,7 @@ Hybrid: A combination of DSP and hardware scaling is employed in order to maximi
                 </ConfigItem>
             </ConfigGroup>
             <ConfigItem 
-                LocationItem="BlockId=1178, Word=8, Bit=8, Size=8" 
+                LocationItem="BlockId=1044, Word=8, Bit=8, Size=8" 
                 Desc="This setting determines which I2S plug-in should be used. The options availlable are to use; A)The provided Qualcomm plug-in which can be configured through this tool to target a wide selection of I2S interfaced devices;B)Preconfigured settings for the Qualcomm SSM_2518 I2S Development Board; C)Preconfigured settings for Qualcomm CSRA_6620 (Diamond) I2S development board; D)A customer developed plug-in." 
                 Type="enum" 
                 Id="Plug-in Type" >
@@ -7179,7 +6472,7 @@ Hybrid: A combination of DSP and hardware scaling is employed in order to maximi
                     key="Customer developed plug-in" />
             </ConfigItem>
             <ConfigItem 
-                LocationItem="BlockId=1178, Word=8, Bit=0, Size=8" 
+                LocationItem="BlockId=1044, Word=8, Bit=0, Size=8" 
                 Desc="Specifies Master or Slave Operation." 
                 Type="enum" 
                 Id="Master or Slave Operation" >
@@ -7191,7 +6484,7 @@ Hybrid: A combination of DSP and hardware scaling is employed in order to maximi
                     key="Master" />
             </ConfigItem>
             <ConfigItem 
-                LocationItem="BlockId=1178, Word=13, Bit=12, Size=4" 
+                LocationItem="BlockId=1044, Word=13, Bit=12, Size=4" 
                 Desc="Choose between left justified and right justified I2S data." 
                 Type="enum" 
                 Id="Left or Right Justified I2S" >
@@ -7203,7 +6496,7 @@ Hybrid: A combination of DSP and hardware scaling is employed in order to maximi
                     key="Right Justified" />
             </ConfigItem>
             <ConfigItem 
-                LocationItem="BlockId=1178, Word=13, Bit=8, Size=4" 
+                LocationItem="BlockId=1044, Word=13, Bit=8, Size=4" 
                 Desc="The I2S data can be delayed by 1 bit." 
                 Type="enum" 
                 Id="Justified Data Delay by 1 bit" >
@@ -7215,7 +6508,7 @@ Hybrid: A combination of DSP and hardware scaling is employed in order to maximi
                     key="1 Bit Delay" />
             </ConfigItem>
             <ConfigItem 
-                LocationItem="BlockId=1178, Word=9, Bit=8, Size=8" 
+                LocationItem="BlockId=1044, Word=9, Bit=8, Size=8" 
                 Desc="Specifies the number of bits in each audio sample. Bits per sample should be less than or equal to bit depth. If 24 bit operation is defined, Bits per sample should be configured to a minimum of 24 bits." 
                 Type="enum" 
                 Id="Bits per Sample" >
@@ -7230,22 +6523,22 @@ Hybrid: A combination of DSP and hardware scaling is employed in order to maximi
                     key="32 bits" />
             </ConfigItem>
             <ConfigItem 
-                LocationItem="BlockId=1178, Word=4, Bit=0, Size=16" 
+                LocationItem="BlockId=1044, Word=4, Bit=0, Size=16" 
                 Desc="Forces re-sampling of all audio outputs to a fixed sample rate when an I2S output is configured, specified in Hz. A value of 0 disables re-sampling. Note, I2S outputs do not support re-sample rates less than 44100Hz, any attempt to force a rate lower than 44100Hz will result in no audio on the I2S output." 
                 Type="uint" 
                 Id="Audio Output Re-sample Rate [Hz]" />
             <ConfigItem 
-                LocationItem="BlockId=1178, Word=5, Bit=0, Size=16" 
+                LocationItem="BlockId=1044, Word=5, Bit=0, Size=16" 
                 Desc="Specifies the voice (CVC) output sample rate when an I2S output is configured, in Hz. A value of 0 disables re-sampling. Note, I2S outputs do not support sample rates less than 44100Hz, any rate lower than this will be overridden by the application." 
                 Type="uint" 
                 Id="Voice Re-sample Rate [Hz]" />
             <ConfigItem 
-                LocationItem="BlockId=1178, Word=6, Bit=0, Size=16" 
+                LocationItem="BlockId=1044, Word=6, Bit=0, Size=16" 
                 Desc="Specifies the I2S bit clock rate (BCLK) as a multiple of the sample rate, output when running in I2S Master mode." 
                 Type="uint" 
                 Id="Bit Clock Scaling Factor" />
             <ConfigItem 
-                LocationItem="BlockId=1178, Word=7, Bit=0, Size=16" 
+                LocationItem="BlockId=1044, Word=7, Bit=0, Size=16" 
                 Desc="Specifies the I2S master clock rate (MCLK) as a multiple of the sample rate. This is used to drive the bit and word clocks when running in I2S Master mode, so must always be higher than the bit clock scaling factor. In I2S Slave mode, the MCLK of an external device may be used to drive the audio interface logic synchronously. A value of 0 disables MCLK input/output." 
                 Type="uint" 
                 Id="Master Clock Scaling Factor" />
@@ -7280,7 +6573,7 @@ Where dBthresh is the threshold level (quoted as dBFS).
                 Type="bool" 
                 Id="Enable Mixing of Voice and Audio" />
             <ConfigItem 
-                LocationItem="BlockId=1162, Word=3, Bit=8, Size=8" 
+                LocationItem="BlockId=1028, Word=3, Bit=8, Size=8" 
                 Desc="Determines the sampling rate used for the analogue wired audio input. Note: High Resolution sample rates (88.2 and 96 kHz) are not available on CSR8670." 
                 Type="enum" 
                 Id="Wired audio Input sampling rate" >
@@ -7301,7 +6594,7 @@ Where dBthresh is the threshold level (quoted as dBFS).
                     value="4" />
             </ConfigItem>
             <ConfigItem 
-                LocationItem="BlockId=1162, Word=3, Bit=0, Size=8" 
+                LocationItem="BlockId=1028, Word=3, Bit=0, Size=8" 
                 Desc="Determines the maximum sampling rate used for the spdif wired audio input. Note: High Resolution sample rates (88.2 and 96 kHz) are not available on CSR8670." 
                 Type="enum" 
                 Id="Wired audio maximum input sampling rate for spdif" >
@@ -7322,7 +6615,7 @@ Where dBthresh is the threshold level (quoted as dBFS).
                     value="4" />
             </ConfigItem>
             <ConfigItem 
-                LocationItem="BlockId=1162, Word=4, Bit=8, Size=8" 
+                LocationItem="BlockId=1028, Word=4, Bit=8, Size=8" 
                 Desc="Set the playback sample rate to use when routing analogue, I2S or SPDIF inputs. Note that if a resampling rate is explicitly set for the I2S output it will override this value. When the wireless subwoofer functionality is enabled all output playback is at a fixed rate of 48kHz which will also override this setting." 
                 Type="enum" 
                 Id="Output sampling rate when routing wired audio sources" >
@@ -7350,19 +6643,19 @@ Where dBthresh is the threshold level (quoted as dBFS).
                 Node="Basic" 
                 Id="A2DP Time To Play Latency" >
                 <ConfigItem 
-                    LocationItem="BlockId=1550, Word=1, Bit=0, Size=16" 
+                    LocationItem="BlockId=1252, Word=1, Bit=0, Size=16" 
                     Range="Min=0,Max=1000" 
                     Type="uint" 
                     Id="A2DP Target Time To Play Latency [ms]" 
                     Desc="The DSP will attempt to maintain this time period between the average arrival time and playback time.   If the latency starts increasing (because data is arriving faster than expected) the output rate will be increased to compensate, and decreased for the other direction.  The default value is recommended, as altering this value may cause audio quality issues. This feature allows for the configuration of time to play parameters for A2DP usecases, excluding those that involve TWS, Wired TWS, Broadcast Audio, Wired Audio or APTX-LL" />
                 <ConfigItem 
-                    LocationItem="BlockId=1550, Word=2, Bit=0, Size=16" 
+                    LocationItem="BlockId=1252, Word=2, Bit=0, Size=16" 
                     Range="Min=0,Max=1000" 
                     Type="uint" 
                     Id="A2DP Minimum Time To Play Latency [ms]" 
                     Desc="If due to data arriving slowly the current latency drops below the minimum limit, the DSP will insert silence to rapidly get back towards the target latency.  The default value is recommended, as altering this value may cause audio quality issues. This feature allows for the configuration of time to play parameters for A2DP usecases, excluding those that involve TWS, Wired TWS, Broadcast Audio, Wired Audio or APTX-LL" />
                 <ConfigItem 
-                    LocationItem="BlockId=1550, Word=3, Bit=0, Size=16" 
+                    LocationItem="BlockId=1252, Word=3, Bit=0, Size=16" 
                     Range="Min=0,Max=1000" 
                     Type="uint" 
                     Id="A2DP Maximum Time To Play Latency [ms]" 
@@ -7372,19 +6665,19 @@ Where dBthresh is the threshold level (quoted as dBFS).
                 Node="Basic" 
                 Id="TWS Time To Play Latency" >
                 <ConfigItem 
-                    LocationItem="BlockId=1550, Word=4, Bit=0, Size=16" 
+                    LocationItem="BlockId=1252, Word=4, Bit=0, Size=16" 
                     Range="Min=0,Max=1000" 
                     Type="uint" 
                     Id="TWS Target Time To Play Latency [ms]" 
                     Desc="The DSP will attempt to maintain this time period between the average arrival time and playback time.   If the latency starts increasing (because data is arriving faster than expected) the output rate will be increased to compensate, and decreased for the other direction.  The default value is recommended, as altering this value may cause audio quality issues. This feature allows for the configuration of time to play parameters for TWS usecases." />
                 <ConfigItem 
-                    LocationItem="BlockId=1550, Word=5, Bit=0, Size=16" 
+                    LocationItem="BlockId=1252, Word=5, Bit=0, Size=16" 
                     Range="Min=0,Max=1000" 
                     Type="uint" 
                     Id="TWS Minimum Time To Play Latency [ms]" 
                     Desc="If due to data arriving slowly the current latency drops below the minimum limit, the DSP will insert silence to rapidly get back towards the target latency.  The default value is recommended, as altering this value may cause audio quality issues. This feature allows for the configuration of time to play parameters for TWS usecases." />
                 <ConfigItem 
-                    LocationItem="BlockId=1550, Word=6, Bit=0, Size=16" 
+                    LocationItem="BlockId=1252, Word=6, Bit=0, Size=16" 
                     Range="Min=0,Max=1000" 
                     Type="uint" 
                     Id="TWS Maximum Time To Play Latency [ms]" 
@@ -7394,19 +6687,19 @@ Where dBthresh is the threshold level (quoted as dBFS).
                 Node="Basic" 
                 Id="Wired Time To Play Latency" >
                 <ConfigItem 
-                    LocationItem="BlockId=1550, Word=7, Bit=0, Size=16" 
+                    LocationItem="BlockId=1252, Word=7, Bit=0, Size=16" 
                     Range="Min=0,Max=1000" 
                     Type="uint" 
                     Id="Wired Target Time To Play Latency [ms]" 
                     Desc="The DSP will attempt to maintain this time period between the average arrival time and playback time.   If the latency starts increasing (because data is arriving faster than expected) the output rate will be increased to compensate, and decreased for the other direction.  The default value is recommended, as altering this value may cause audio quality issues. This feature allows for the configuration of time to play parameters for Wired  (analogue, I2S, SPDIF, USB Rx music) usecases." />
                 <ConfigItem 
-                    LocationItem="BlockId=1550, Word=8, Bit=0, Size=16" 
+                    LocationItem="BlockId=1252, Word=8, Bit=0, Size=16" 
                     Range="Min=0,Max=1000" 
                     Type="uint" 
                     Id="Wired Minimum Time To Play Latency [ms]" 
                     Desc="If due to data arriving slowly the current latency drops below the minimum limit, the DSP will insert silence to rapidly get back towards the target latency.  The default value is recommended, as altering this value may cause audio quality issues. This feature allows for the configuration of time to play parameters for Wired (analogue, I2S, SPDIF, USB Rx music) usecases." />
                 <ConfigItem 
-                    LocationItem="BlockId=1550, Word=9, Bit=0, Size=16" 
+                    LocationItem="BlockId=1252, Word=9, Bit=0, Size=16" 
                     Range="Min=0,Max=1000" 
                     Type="uint" 
                     Id="Wired Maximum Time To Play Latency [ms]" 
@@ -7421,12 +6714,12 @@ Where dBthresh is the threshold level (quoted as dBFS).
                 Id="Use Case Table" >
                 <ConfigPatternArray 
                     Pattern="audio_clock_pattern" 
-                    LocationPatternArray="BlockId=1474, Word=1, PatternSize=8" 
+                    LocationPatternArray="BlockId=1176, Word=1, PatternSize=8" 
                     MaxNumPatterns="10" 
                     Id="Audio Clock Array" />
             </ConfigGroup>
             <ConfigItem 
-                LocationItem="BlockId=1469, Word=1, Bit=0, Size=16" 
+                LocationItem="BlockId=1171, Word=1, Bit=0, Size=16" 
                 Type="enum" 
                 Id="Default Rate" 
                 Desc="If the active use case matches exactly with an entry in the Use Case Table then the clock rate from that entry will be used. If the active use case does not match any table entry, the Default Rate will be used." >
@@ -7600,12 +6893,12 @@ Where dBthresh is the threshold level (quoted as dBFS).
                     Id="PDL Size" 
                     Desc="The maximum number of entries that may be stored in the paired devices list." />
                 <ConfigItem 
-                    LocationItem="BlockId=1081, Word=1, Bit=0, Size=16" 
+                    LocationItem="BlockId=979, Word=1, Bit=0, Size=16" 
                     Type="uint" 
                     Id="LE Authenticated Payload Timeout" 
                     Desc="The Authenticated_Payload_Timeout configuration parameter allows the Host to configure the maximum interval between packets containing a MIC received from the remote device when AES-CCM encryption is enabled on LE link." />
                 <ConfigItem 
-                    LocationItem="BlockId=1448, Word=2, Bit=14, Size=2" 
+                    LocationItem="BlockId=1160, Word=2, Bit=14, Size=2" 
                     Type="enum" 
                     Id="Secure Connection" 
                     Desc="Configure the Secure Connection Mode. LE SC is enabled by default. BT2.1 Man in the Middle needs to be enabled for Secure Connection Only Mode." >
@@ -7620,7 +6913,7 @@ Where dBthresh is the threshold level (quoted as dBFS).
                         value="2" />
                 </ConfigItem>
                 <ConfigItem 
-                    LocationItem="BlockId=1448, Word=1, Bit=0, Size=16" 
+                    LocationItem="BlockId=1160, Word=1, Bit=0, Size=16" 
                     Type="uint" 
                     Id="BR/EDR Authenticated Payload Timeout" 
                     Desc="The Authenticated_Payload_Timeout configuration parameter allows the Host to configure the maximum interval between packets containing a MIC received from the remote device when AES-CCM encryption is enabled on BR/EDR link." />
@@ -7897,7 +7190,7 @@ Where dBthresh is the threshold level (quoted as dBFS).
                 Node="Basic" 
                 Id="PBAP" >
                 <ConfigItem 
-                    LocationItem="BlockId=1108, Word=1, Bit=15, Size=1" 
+                    LocationItem="BlockId=1000, Word=1, Bit=15, Size=1" 
                     Desc="When set enables Phone Book Application Profile (PBAP) functionality." 
                     Type="bool" 
                     Id="Enable PBAP" />
@@ -8280,7 +7573,7 @@ Where dBthresh is the threshold level (quoted as dBFS).
                 Node="Basic" 
                 Id="BLE Advertising Report Filters" >
                 <ConfigItem 
-                    LocationItem="BlockId=1081, Word=2, Bit=9, Size=7" 
+                    LocationItem="BlockId=979, Word=2, Bit=9, Size=7" 
                     Type="bitfield" 
                     Id="BLE Advertising Filters" 
                     Desc="Only advertising reports that contain the selected service UUIDs will be processed in the sink application. This increases the chances of the sink application connecting to a remote device supporting the required services. Eg. If HID and IAS advertising report filters are selected, then only received advertising reports containing HID or IAS UUIDs will be handled in the sink application." >
@@ -8311,35 +7604,21 @@ Where dBthresh is the threshold level (quoted as dBFS).
                 Node="Basic" 
                 Id="Find Me" >
                 <ConfigItem 
-                    LocationItem="BlockId=1092, Word=1, Bit=0, Size=16" 
+                    LocationItem="BlockId=990, Word=1, Bit=0, Size=16" 
                     Type="uint" 
                     Id="Alert Tone Period [s]" 
                     Desc="The time, in seconds, that the system waits before repeating the alert event" />
                 <ConfigItem 
-                    LocationItem="BlockId=1097, Word=1, Bit=0, Size=16" 
+                    LocationItem="BlockId=995, Word=1, Bit=0, Size=16" 
                     Type="uint" 
                     Id="Alert Tone Timeout [s]" 
                     Desc="The time, in seconds, that the system waits before stopping the alert" />
             </ConfigGroup>
             <ConfigGroup 
                 Node="Basic" 
-                Id="Proximity" >
-                <ConfigItem 
-                    LocationItem="BlockId=1102, Word=1, Bit=0, Size=16" 
-                    Type="uint" 
-                    Id="Proximity Tone Period [s]" 
-                    Desc="The time, in seconds, that the system waits before repeating the alert event" />
-                <ConfigItem 
-                    LocationItem="BlockId=1102, Word=2, Bit=0, Size=16" 
-                    Type="uint" 
-                    Id="Proximity Tone Timeout [s]" 
-                    Desc="The time, in seconds, that the system waits before stopping the alert" />
-            </ConfigGroup>
-            <ConfigGroup 
-                Node="Basic" 
                 Id="ANCS" >
                 <ConfigItem 
-                    LocationItem="BlockId=1087, Word=1, Bit=0, Size=16" 
+                    LocationItem="BlockId=985, Word=1, Bit=0, Size=16" 
                     Type="bitfield" 
                     Id="ANCS Notification Enable Mask" 
                     Desc="This bitmask specifies the notification categories to be enabled on the ANCS Server (Apple Device)" >
@@ -8382,12 +7661,12 @@ Where dBthresh is the threshold level (quoted as dBFS).
                 </ConfigItem>
             </ConfigGroup>
             <ConfigItem 
-                LocationItem="BlockId=1081, Word=2, Bit=7, Size=2" 
+                LocationItem="BlockId=979, Word=2, Bit=7, Size=2" 
                 Type="uint" 
                 Id="BLE Max Peripheral Connection" 
                 Desc="This field is used to specify maximum connection allowed in Peripheral role. If the user sets more than 2 and/or if combination of this and Maximum Central Connection is more than 2, then this value is restricted to 1" />
             <ConfigItem 
-                LocationItem="BlockId=1081, Word=2, Bit=5, Size=2" 
+                LocationItem="BlockId=979, Word=2, Bit=5, Size=2" 
                 Type="uint" 
                 Id="BLE Max Central Connection" 
                 Desc="This field is used to specify maximum connection allowed in Central role. If the user sets more than 2 and/or if combination of this and Maximum Peripheral Connection is more than 2, then this value is restricted to 1" />
@@ -8398,387 +7677,14 @@ Where dBthresh is the threshold level (quoted as dBFS).
         Node="Basic" 
         Id="Battery" >
         <ConfigGroup 
-            Node="Basic" 
+            Node="Array" 
             Id="USB Power" >
-            <ConfigGroup 
-                Node="Basic" 
-                Id="BC 1.2 Required Operating Range" >
-                <ConfigItem 
-                    LocationItem="BlockId=1371, Word=1, Bit=0, Size=16" 
-                    ShowOrdered="true" 
-                    Desc="The fast charge current is increased until Vchg drops to this limiting threshold." 
-                    Type="enum" 
-                    Id="Vchg Current Limit Threshold [V]" >
-                    <List 
-                        use="vchg_current_limit_thresholds" />
-                </ConfigItem>
-                <ConfigItem 
-                    LocationItem="BlockId=1371, Word=2, Bit=0, Size=16" 
-                    ShowOrdered="true" 
-                    Desc="If Vchg drops to the limiting threshold then the fast charge current is decreased until Vchg recovers to this higher threshold." 
-                    Type="enum" 
-                    Id="Vchg Current Recovery Threshold [V]" >
-                    <List 
-                        use="vchg_current_limit_thresholds" />
-                </ConfigItem>
-                <ConfigItem 
-                    LocationItem="BlockId=1371, Word=3, Bit=0, Size=16" 
-                    Range="Min=0,Max=500" 
-                    Desc="The period between reading Vchg when determining the charger current." 
-                    Type="uint" 
-                    Id="Vchg Current Limit Read Period [ms]" />
-                <ConfigItem 
-                    LocationItem="BlockId=1371, Word=4, Bit=8, Size=8" 
-                    Range="Min=0,Max=50" 
-                    Desc="The step size for increasing the charger current." 
-                    Type="uint" 
-                    Id="Positive current step [mA]" />
-                <ConfigItem 
-                    LocationItem="BlockId=1371, Word=4, Bit=0, Size=8" 
-                    Range="Min=0,Max=50" 
-                    Desc="The step size for decreasing the charger current." 
-                    Type="uint" 
-                    Id="Negative current step [mA]" />
-            </ConfigGroup>
-            <ConfigGroup 
-                Node="Array" 
-                Id="Proprietary Charger" >
-                <ConfigPatternArray 
-                    Pattern="sink_proprietary_charge_current" 
-                    LocationPatternArray="BlockId=1294, Word=1, PatternSize=5" 
-                    MaxNumPatterns="10" 
-                    Id="Proprietary Charger Configuration" />
-            </ConfigGroup>
-            <ConfigGroup 
-                Node="Array" 
-                ConfigGroupPath="./[@ShortId='battery']/[@ShortId='usb_power']" 
-                Id="Compliant Charger" >
-                <ConfigPatternArray 
-                    Pattern="sink_charge_current" 
-                    LocationPatternArray="BlockId=1268, Word=1, PatternSize=2" 
-                    FixedNumPatterns="11" 
-                    Presentation="ReadOnlyHeader" 
-                    Id="USB Charger Configuration" />
-            </ConfigGroup>
-        </ConfigGroup>
-        <ConfigGroup 
-            Node="Basic" 
-            Id="Charger Configuration" >
-            <ConfigGroup 
-                Node="Basic" 
-                Id="External Charger Hardware" >
-                <ConfigItem 
-                    LocationItem="BlockId=1420, Word=1, Bit=5, Size=1" 
-                    Desc="If external charger hardware is fitted then currents higher than 200mA can be used for fast charging the battery." 
-                    Type="bool" 
-                    Id="External Charger Fitted" />
-                <ConfigItem 
-                    LocationItem="BlockId=1420, Word=1, Bit=6, Size=10" 
-                    Desc="The value of the sense-resistor used for external charge mode." 
-                    Type="uint" 
-                    Id="External Mode Sense-Resistor Value [mOhm]" />
-            </ConfigGroup>
-            <ConfigGroup 
-                Node="Basic" 
-                Id="Charger Cycle" >
-                <ConfigItem 
-                    LocationItem="BlockId=1425, Word=2, Bit=12, Size=4" 
-                    ShowOrdered="true" 
-                    Type="enum" 
-                    Id="Vchg Termination Voltage (Vfloat) [V]" 
-                    Desc="Sets the default charger termination voltage threshold (USB VBUS). This is the charger termination voltage except when overridden by the battery temperature regions table. The charge current can be limited if Vchg voltages drops below this level." >
-                    <List 
-                        use="vfloat" />
-                </ConfigItem>
-                <ConfigItem 
-                    LocationItem="BlockId=1425, Word=1, Bit=8, Size=8" 
-                    Desc="The current taken directly from the charger for external devices such as the backlight, when supplied by the charger. If external devices are supplied from the battery this setting should be 0mA. This value will be subtracted from the requested charger current before it is applied. This is done to ensure that the current drawn does not exceed the requested charge current. This is primarily used to ensure USB current limitations are met." 
-                    Type="uint" 
-                    Id="Current taken by external devices directly from charger [mA]" />
-                <ConfigItem 
-                    LocationItem="BlockId=1425, Word=2, Bit=10, Size=2" 
-                    ShowOrdered="true" 
-                    Type="enum" 
-                    Id="Standby-Fast Charge Voltage Hysteresis (Vhyst)" 
-                    Desc="The charger switches from standby to fast charge when Vbat drops below Vfloat - Vhyst." >
-                    <List 
-                        use="standby_fast_hysteresis" />
-                </ConfigItem>
-                <ConfigItem 
-                    LocationItem="BlockId=1425, Word=2, Bit=8, Size=2" 
-                    ShowOrdered="true" 
-                    Type="enum" 
-                    Id="Pre-Fast Voltage Threshold" 
-                    Desc="The charger switches from pre-charge to fast charge when Vbat rises above this threshold." >
-                    <List 
-                        use="pre_fast_threshold" />
-                </ConfigItem>
-                <ConfigItem 
-                    LocationItem="BlockId=1425, Word=2, Bit=6, Size=2" 
-                    ShowOrdered="true" 
-                    Type="enum" 
-                    Id="Termination Current Control" 
-                    Desc="The termination current as a percentage of fast charge current. The charger goes into standby when the charge current reaches this level." >
-                    <List 
-                        use="iterm_ctrl_percentage" />
-                </ConfigItem>
-                <ConfigItem 
-                    LocationItem="BlockId=1425, Word=2, Bit=4, Size=2" 
-                    ShowOrdered="true" 
-                    Type="enum" 
-                    Id="State Change Debounce Timer" 
-                    Desc="The charger state change (pre/fast/standby) debounce timer" >
-                    <List 
-                        use="state_change_debounce" />
-                </ConfigItem>
-                <ConfigItem 
-                    LocationItem="BlockId=1425, Word=1, Bit=0, Size=8" 
-                    Desc="The time interval between charger progress updates in seconds while charging, 0 to disable." 
-                    Type="uint" 
-                    Id="Charger Progress Monitor Read Period When Charging [s]" />
-                <ConfigItem 
-                    LocationItem="BlockId=1431, Word=1, Bit=8, Size=8" 
-                    Range="Min=0,Max=50" 
-                    Type="uint" 
-                    Id="Trickle Charge Current [mA]" 
-                    Desc="The trickle charge current." />
-                <ConfigItem 
-                    LocationItem="BlockId=1431, Word=1, Bit=0, Size=8" 
-                    Range="Min=0,Max=200" 
-                    Type="uint" 
-                    Id="Pre-charge Current [mA]" 
-                    Desc="The pre-charge current" />
-                <ConfigItem 
-                    LocationItem="BlockId=1436, Word=1, Bit=0, Size=16" 
-                    Range="Min=0,Max=720" 
-                    Type="uint" 
-                    Id="Trickle Charge Timeout [m]" 
-                    Desc="The charger shall be disabled if trickle charging for longer than this timeout. Use 0 minutes to disable this timeout." />
-                <ConfigItem 
-                    LocationItem="BlockId=1436, Word=2, Bit=0, Size=16" 
-                    Range="Min=0,Max=720" 
-                    Type="uint" 
-                    Id="Pre-charge Timeout [m]" 
-                    Desc="The charger shall be disabled if pre-charging for longer than this timeout. Use 0 minutes to disable this timeout. This value should be derived from the battery capacity, pre-fast voltage threshold, pre-charge ratio and lowest fast charge current." />
-                <ConfigItem 
-                    LocationItem="BlockId=1436, Word=3, Bit=0, Size=16" 
-                    Range="Min=0,Max=720" 
-                    Type="uint" 
-                    Id="Fast Charge Timeout [m]" 
-                    Desc="The charger shall be disabled if fast charging for longer than this timeout. Use 0 minutes to disable this timeout. This value should be derived from the battery capacity, pre-fast voltage threshold, termination current control and lowest fast charge current." />
-            </ConfigGroup>
-            <ConfigGroup 
-                Node="Basic" 
-                Id="Voltage Source Selector" >
-                <ConfigItem 
-                    LocationItem="BlockId=1443, Word=1, Bit=15, Size=1" 
-                    Desc="Set this to BAT to force the device to run from battery in fast charge mode. If this is set to CHG then the device will run from charger unless overridden by the USB Power or Temperature Regions voltage source selectors." 
-                    Type="enum" 
-                    Id="Fast Charge Voltage Select" >
-                    <enum 
-                        value="0" 
-                        key="CHG" />
-                    <enum 
-                        value="1" 
-                        key="BAT" />
-                </ConfigItem>
-            </ConfigGroup>
-        </ConfigGroup>
-        <ConfigGroup 
-            Node="Basic" 
-            Id="Reference Voltage (Vref)" >
-            <ConfigGroup 
-                Node="Basic" 
-                Id="Reference ADC Configuration (Vref)" >
-                <ConfigItem 
-                    LocationItem="BlockId=1340, Word=2, Bit=0, Size=8" 
-                    Type="uint" 
-                    Id="Vref Read Period When Charging [s]" 
-                    Desc="This configures the time interval between Vref updates in seconds while charging, 0 to disable." />
-                <ConfigItem 
-                    LocationItem="BlockId=1340, Word=1, Bit=0, Size=16" 
-                    Type="uint" 
-                    Id="Vref Read Period When Not Charging [s]" 
-                    Desc="This configures the timer interval between Vref updates in seconds while not charging, 0 to disable." />
-            </ConfigGroup>
-        </ConfigGroup>
-        <ConfigGroup 
-            Node="Basic" 
-            Id="Battery Voltage (Vbat)" >
-            <ConfigGroup 
-                Node="Array" 
-                Id="Vbat Threshold Settings" >
-                <ConfigPatternArray 
-                    Pattern="vbat_battery_threshold_config" 
-                    LocationPatternArray="BlockId=1346, Word=4, PatternSize=3" 
-                    FixedNumPatterns="6" 
-                    Id="Vbat Battery Voltage Monitoring Threshold Settings" />
-            </ConfigGroup>
-            <ConfigGroup 
-                Node="Basic" 
-                Id="Battery ADC Configuration (Vbat)" >
-                <ConfigItem 
-                    LocationItem="BlockId=1346, Word=2, Bit=0, Size=8" 
-                    Desc="This configures the time interval between Vbat updates in seconds while charging, 0 to disable." 
-                    Type="uint" 
-                    Id="Vbat Read Period When Charging [s]" />
-                <ConfigItem 
-                    LocationItem="BlockId=1346, Word=1, Bit=0, Size=16" 
-                    Desc="This configures the timer interval between Vbat updates in seconds while not charging, 0 to disable." 
-                    Type="uint" 
-                    Id="Vbat Read Period When Not Charging [s]" />
-            </ConfigGroup>
-            <ConfigGroup 
-                Node="Basic" 
-                Id="Gas Gauge Actions" >
-                <ConfigItem 
-                    LocationItem="BlockId=1323, Word=2, Bit=13, Size=3" 
-                    Type="enum" 
-                    Id="Action to perform when streaming music and the battery level is getting low whilst charging" 
-                    Desc="Action to prevent audio quality from deteriorating due to operating with battery at Gas Gauge 0 or Gas Gauge Low whilst charging." >
-                    <enum 
-                        key="Take no action" 
-                        value="0" />
-                    <enum 
-                        key="Power off device whilst charging" 
-                        value="1" />
-                    <enum 
-                        key="Limit maximum volume level until charger is disconnected and level is above Gas Gauge 0" 
-                        value="2" />
-                </ConfigItem>
-                <ConfigItem 
-                    LocationItem="BlockId=1323, Word=1, Bit=0, Size=16" 
-                    Range="Min=0,Max=100" 
-                    Type="uint" 
-                    Id="Maximum volume level limit whilst charging when the battery is getting low [%]" 
-                    Desc="If 'Limit maximum volume level until charger is disconnected and level is above Gas Gauge 0' then this is the maximum volume level expressed as a percentage, e.g. 50% would represent step 8 out of 16 volume steps. This limit is maintained until battery level is above Gas Gauge 0 and the charger cable is disconnected. If level is 0% then the volume limitation is disabled." />
-                <ConfigItem 
-                    LocationItem="BlockId=1346, Word=3, Bit=15, Size=1" 
-                    Desc="When not charging the gas gauge is not updated when new Vbat readings are higher than the lowest previous reading." 
-                    Type="bool" 
-                    Id="Ignore Increasing Vbat Readings When Not Charging" />
-            </ConfigGroup>
-        </ConfigGroup>
-        <ConfigGroup 
-            Node="Basic" 
-            Id="Battery Temperature (Vthm)" >
-            <ConfigGroup 
-                Node="Array" 
-                Id="Temperature Regions" >
-                <ConfigPatternArray 
-                    Pattern="charger_configuration_settings" 
-                    LocationPatternArray="BlockId=1394, Word=1, PatternSize=2" 
-                    FixedNumPatterns="8" 
-                    Presentation="ReadOnlyHeader" 
-                    Id="Temperature Regions Table" />
-            </ConfigGroup>
-            <ConfigGroup 
-                Node="Basic" 
-                Id="Thermistor ADC Configuration (Vthm)" >
-                <ConfigItem 
-                    LocationItem="BlockId=1379, Word=2, Bit=8, Size=8" 
-                    Desc="The Vthm input can be configured to use any of the available input sources given below." 
-                    Type="enum" 
-                    Id="Vthm ADC Source" >
-                    <List 
-                        use="adc_sources" />
-                </ConfigItem>
-                <ConfigItem 
-                    LocationItem="BlockId=1379, Word=2, Bit=0, Size=8" 
-                    Desc="This configures the time interval between Vthm updates in seconds while charging, 0 to disable." 
-                    Type="uint" 
-                    Id="Vthm Read Period When Charging [s]" />
-                <ConfigItem 
-                    LocationItem="BlockId=1379, Word=1, Bit=0, Size=16" 
-                    Desc="This configures the timer interval between Vthm updates in seconds while not charging, 0 to disable." 
-                    Type="uint" 
-                    Id="Vthm Read Period When Not Charging [s]" />
-                <ConfigItem 
-                    LocationItem="BlockId=1379, Word=10, Bit=8, Size=8" 
-                    Desc="If a PIO drives the thermistor circuit, this parameter sets the required PIO number. When this value is set make sure Drive Thermistor Output ICS is set to N/A. Note that XIO 0-12 map to PIO 74-86." 
-                    Type="enum" 
-                    Id="Drive Thermistor Output PIO" >
-                    <List 
-                        use="pio_7_bit" />
-                    <List 
-                        use="pio_not_sel" />
-                </ConfigItem>
-                <ConfigItem 
-                    LocationItem="BlockId=1379, Word=10, Bit=0, Size=8" 
-                    Desc="If an internal current source drives the thermistor circuit, this parameter sets the required internal current source LED. When this value is set make sure Drive Thermistor Output PIO is set to N/A" 
-                    Type="enum" 
-                    Id="Drive Thermistor Output ICS" >
-                    <List 
-                        use="ic_sources" />
-                </ConfigItem>
-                <ConfigItem 
-                    LocationItem="BlockId=1379, Word=11, Bit=12, Size=4" 
-                    Desc="Delay in milliseconds between activating the thermistor drive output and taking the ADC reading. This allows the voltage level to settle before the data is sampled." 
-                    Type="uint" 
-                    Id="Thermistor Drive Delay [ms]" />
-            </ConfigGroup>
-            <ConfigGroup 
-                Node="Basic" 
-                Id="Thermistor Thresholds" >
-                <ConfigItem 
-                    LocationItem="BlockId=1379, Word=11, Bit=11, Size=1" 
-                    Desc="When set, the limit thresholds need to be entered as raw ADC counts, when clear they need to be in mV. For negative temperature co-efficient (NTC) thermistors, smaller values represent hotter temperatures." 
-                    Type="bool" 
-                    Id="Use Raw Limits" />
-                <ConfigItem 
-                    LocationItem="BlockId=1379, Word=3, Bit=0, Size=16" 
-                    Type="uint" 
-                    Id="Limit Threshold 1" 
-                    Desc="For NTC thermistors this is the threshold of the hottest temperature region. The values are in units of ADC counts or millivolts depending on the setting of vthm.raw_limits. If fewer than seven limits are specified, the terminating value is 65535 (-1)." />
-                <ConfigItem 
-                    LocationItem="BlockId=1379, Word=4, Bit=0, Size=16" 
-                    Type="uint" 
-                    Id="Limit Threshold 2" 
-                    Desc="For NTC thermistors this is the threshold of the next cooler temperature region. The list is ordered in ascending order of ADC counts or millivolts depending on the setting of vthm.raw_limits. If fewer than seven limits are specified, the terminating value is 65535 (-1)." />
-                <ConfigItem 
-                    LocationItem="BlockId=1379, Word=5, Bit=0, Size=16" 
-                    Type="uint" 
-                    Id="Limit Threshold 3" 
-                    Desc="For NTC thermistors this is the threshold of the next cooler temperature region. The list is ordered in ascending order of ADC counts or millivolts depending on the setting of vthm.raw_limits. If fewer than seven limits are specified, the terminating value is 65535 (-1)." />
-                <ConfigItem 
-                    LocationItem="BlockId=1379, Word=6, Bit=0, Size=16" 
-                    Type="uint" 
-                    Id="Limit Threshold 4" 
-                    Desc="For NTC thermistors this is the threshold of the next cooler temperature region. The list is ordered in ascending order of ADC counts or millivolts depending on the setting of vthm.raw_limits. If fewer than seven limits are specified, the terminating value is 65535 (-1)." />
-                <ConfigItem 
-                    LocationItem="BlockId=1379, Word=7, Bit=0, Size=16" 
-                    Type="uint" 
-                    Id="Limit Threshold 5" 
-                    Desc="For NTC thermistors this is the threshold of the next cooler temperature region. The list is ordered in ascending order of ADC counts or millivolts depending on the setting of vthm.raw_limits. If fewer than seven limits are specified, the terminating value is 65535 (-1)." />
-                <ConfigItem 
-                    LocationItem="BlockId=1379, Word=8, Bit=0, Size=16" 
-                    Type="uint" 
-                    Id="Limit Threshold 6" 
-                    Desc="For NTC thermistors this is the threshold of the next cooler temperature region. The list is ordered in ascending order of ADC counts or millivolts depending on the setting of vthm.raw_limits. If fewer than seven limits are specified, the terminating value is 65535 (-1)." />
-                <ConfigItem 
-                    LocationItem="BlockId=1379, Word=9, Bit=0, Size=16" 
-                    Type="uint" 
-                    Id="Limit Threshold 7" 
-                    Desc="For NTC thermistors this is the upper limit of the next cooler temperature region. The list is ordered in ascending order of ADC counts or millivolts depending on the setting of vthm.raw_limits. If fewer than seven limits are specified, the terminating value is 65535 (-1)." />
-            </ConfigGroup>
-        </ConfigGroup>
-        <ConfigGroup 
-            Node="Basic" 
-            Id="Charger Voltage (Vchg)" >
-            <ConfigGroup 
-                Node="Basic" 
-                Id="Charger ADC Configuration (Vchg)" >
-                <ConfigItem 
-                    LocationItem="BlockId=1414, Word=2, Bit=0, Size=8" 
-                    Desc="This configures the time interval between Vchg updates in seconds while charging, 0 to disable." 
-                    Type="uint" 
-                    Id="Vchg Read Period When Charging [s]" />
-                <ConfigItem 
-                    LocationItem="BlockId=1414, Word=1, Bit=0, Size=16" 
-                    Desc="This configures the timer interval between Vchg updates in seconds while not charging, 0 to disable." 
-                    Type="uint" 
-                    Id="Vchg Read Period When Not Charging [s]" />
-            </ConfigGroup>
+            <ConfigPatternArray 
+                Pattern="sink_charge_current" 
+                LocationPatternArray="BlockId=1134, Word=1, PatternSize=2" 
+                FixedNumPatterns="11" 
+                Presentation="ReadOnlyHeader" 
+                Id="USB Charger Configuration" />
         </ConfigGroup>
     </ConfigGroup>
 
@@ -8865,17 +7771,7 @@ Where dBthresh is the threshold level (quoted as dBFS).
                     use="pio_not_sel" />
             </ConfigItem>
             <ConfigItem 
-                LocationItem="BlockId=1136, Word=2, Bit=0, Size=8" 
-                Desc="PIO to force downmix on TWS session. When a valid PIO is configured here, downmix will not be selectable through Change TWS Audio Routing event, regardless of whether it is enabled or not on the list of permitted routing modes." 
-                Type="enum" 
-                Id="TWS Force Downmix PIO" >
-                <List 
-                    use="pio_7_bit" />
-                <List 
-                    use="pio_not_sel" />
-            </ConfigItem>
-            <ConfigItem 
-                LocationItem="BlockId=1162, Word=4, Bit=0, Size=8" 
+                LocationItem="BlockId=1028, Word=4, Bit=0, Size=8" 
                 Desc="This configures a PIO to detect when SPDIF audio is being used e.g. when a connector is plugged in.  This may also be configured to always assume this input is connected or disabled entirely." 
                 Type="enum" 
                 Id="SPDIF Detect PIO" >
@@ -8885,7 +7781,7 @@ Where dBthresh is the threshold level (quoted as dBFS).
                     use="wired_detect_pio" />
             </ConfigItem>
             <ConfigItem 
-                LocationItem="BlockId=1162, Word=5, Bit=8, Size=8" 
+                LocationItem="BlockId=1028, Word=5, Bit=8, Size=8" 
                 Desc="This configures a PIO to detect when analog audio input is being used, e.g. when a connector is plugged in. This may also be configured to always assume this input is connected or disabled entirely." 
                 Type="enum" 
                 Id="Audio Input PIO" >
@@ -8895,7 +7791,7 @@ Where dBthresh is the threshold level (quoted as dBFS).
                     use="wired_detect_pio" />
             </ConfigItem>
             <ConfigItem 
-                LocationItem="BlockId=1162, Word=5, Bit=0, Size=8" 
+                LocationItem="BlockId=1028, Word=5, Bit=0, Size=8" 
                 Desc="This configures a PIO to be used for SPDIF input, this is required for CSR8675 and must be an odd number. This should be disabled for CSR8670 (SPDIF will still function)" 
                 Type="enum" 
                 Id="SPDIF Input PIO" >
@@ -8905,7 +7801,7 @@ Where dBthresh is the threshold level (quoted as dBFS).
                     use="wired_detect_pio" />
             </ConfigItem>
             <ConfigItem 
-                LocationItem="BlockId=1162, Word=6, Bit=8, Size=8" 
+                LocationItem="BlockId=1028, Word=6, Bit=8, Size=8" 
                 Desc="This configures a PIO to detect whether the I2S audio being used. e.g. when a connector is plugged in. This may also be configured to always assume this input is connected or disabled entirely" 
                 Type="enum" 
                 Id="I2S Detect PIO" >
@@ -8999,40 +7895,10 @@ Where dBthresh is the threshold level (quoted as dBFS).
                     use="pio_not_sel" />
             </ConfigItem>
             <ConfigItem 
-                LocationItem="BlockId=1136, Word=2, Bit=8, Size=8" 
-                Desc="Configures a PIO to drive when a peer device is connected." 
-                Type="enum" 
-                Id="Peer Connection PIO" >
-                <List 
-                    use="pio_7_bit" />
-                <List 
-                    use="pio_not_sel" />
-            </ConfigItem>
-            <ConfigItem 
-                LocationItem="BlockId=1162, Word=6, Bit=0, Size=8" 
+                LocationItem="BlockId=1028, Word=6, Bit=0, Size=8" 
                 Desc="This sets a PIO to be configured for SPDIF ouput, this should be configured for CSR8675 and must be an even number. This should be set to 'N/A' for SPDIF output on CSR8670 (SPDIF output will still function)" 
                 Type="enum" 
                 Id="SPDIF Output" >
-                <List 
-                    use="pio_7_bit" />
-                <List 
-                    use="pio_not_sel" />
-            </ConfigItem>
-            <ConfigItem 
-                LocationItem="BlockId=1464, Word=1, Bit=8, Size=8" 
-                Desc="Configures the reset PIO of the LCD Display" 
-                Type="enum" 
-                Id="Display Reset PIO" >
-                <List 
-                    use="pio_7_bit" />
-                <List 
-                    use="pio_not_sel" />
-            </ConfigItem>
-            <ConfigItem 
-                LocationItem="BlockId=1464, Word=1, Bit=0, Size=8" 
-                Desc="Configures the backlight PIO of the LCD Display" 
-                Type="enum" 
-                Id="Display Backlight PIO" >
                 <List 
                     use="pio_7_bit" />
                 <List 
@@ -10428,7 +9294,7 @@ Where dBthresh is the threshold level (quoted as dBFS).
             Node="Basic" 
             Id="Dormant Mode" >
             <ConfigItem 
-                LocationItem="BlockId=1454, Word=1, Bit=3, Size=13" 
+                LocationItem="BlockId=1166, Word=1, Bit=3, Size=13" 
                 Type="bitfield" 
                 Id="XIO wake up source" 
                 Desc="Configures the wake up source of Dormant Mode to be an XIO. Multiple XIO can be selected that will wake the device from Dormant." >
@@ -10436,7 +9302,7 @@ Where dBthresh is the threshold level (quoted as dBFS).
                     use="wakeup_xio" />
             </ConfigItem>
             <ConfigItem 
-                LocationItem="BlockId=1454, Word=1, Bit=0, Size=3" 
+                LocationItem="BlockId=1166, Word=1, Bit=0, Size=3" 
                 Type="bitfield" 
                 Id="NFC wake up source" 
                 Desc="Configures the wake up source of Dormant Mode to be NFC." >
@@ -10453,50 +9319,6 @@ Where dBthresh is the threshold level (quoted as dBFS).
     <ConfigGroup 
         Node="Basic" 
         Id="Peer Device Support" >
-        <ConfigGroup 
-            Node="Array" 
-            Id="Custom Peer Device Service UUID" >
-            <ConfigPatternArray 
-                Pattern="peer_device_uuid" 
-                LocationPatternArray="BlockId=1136, Word=5, PatternSize=8" 
-                MaxNumPatterns="1" 
-                Id="Peer Device UUID" />
-        </ConfigGroup>
-        <ConfigGroup 
-            Node="Basic" 
-            Id="ShareMe" >
-            <ConfigItem 
-                LocationItem="BlockId=1136, Word=3, Bit=0, Size=1" 
-                Type="bool" 
-                Id="ShareMe Source" 
-                Desc="This configuration item specifies that the device supports relay of audio to another ShareMe device.
-
-Warning: This configuration item must be checked if the corresponding configuration item 'Peer Device Support > ShareMe > Audio Sink' is checked." />
-            <ConfigItem 
-                LocationItem="BlockId=1136, Word=4, Bit=11, Size=1" 
-                Type="bool" 
-                Id="ShareMe Sink" 
-                Desc="This configuration item specifies that the device supports relay of audio to another ShareMe device.
-
-Warning: This configuration item must be checked if the corresponding configuration item 'Peer Device Support > ShareMe > Audio Source' is checked." />
-            <ConfigItem 
-                LocationItem="BlockId=1136, Word=3, Bit=3, Size=2" 
-                Type="enum" 
-                Id="ShareMe Pairing Mode" 
-                Desc="Determines how pairing information is retained for ShareMe devices." >
-                <enum 
-                    key="Temporary" 
-                    value="0" />
-                <enum 
-                    key="Standard" 
-                    value="1" />
-            </ConfigItem>
-            <ConfigItem 
-                LocationItem="BlockId=1136, Word=4, Bit=5, Size=1" 
-                Type="bool" 
-                Id="Remote Peer Controls AV Source" 
-                Desc="A connected remote ShareMe device can issue AVRCP commands to an AG connected to the local ShareMe device." />
-        </ConfigGroup>
         <ConfigGroup 
             Node="Basic" 
             Id="True Wireless Stereo" >
@@ -10539,251 +9361,8 @@ Warning: This configuration item must be checked if the corresponding configurat
                         key="Downmix" 
                         value="3" />
                 </ConfigItem>
-                <ConfigItem 
-                    LocationItem="BlockId=1136, Word=3, Bit=5, Size=4" 
-                    Type="bitfield" 
-                    Id="Permitted Routing Modes" 
-                    Desc="Routing modes which may be selected by the Change TWS Audio Routing event. Note: For Single Channel Rendering mode changing the routing mode has no effect" >
-                    <bitfield 
-                        key="Master Stereo, Slave Stereo" 
-                        value="0" />
-                    <bitfield 
-                        key="Master Left, Slave Right" 
-                        value="1" />
-                    <bitfield 
-                        key="Master Right, Slave Left" 
-                        value="2" />
-                    <bitfield 
-                        key="Master Downmix, Slave Downmix" 
-                        value="3" />
-                </ConfigItem>
-                <ConfigItem 
-                    LocationItem="BlockId=1136, Word=4, Bit=12, Size=2" 
-                    Type="enum" 
-                    Id="Fixed audio routing for this device" 
-                    Desc="Audio routing mode for this device. This needs to be configured on both TWS devices according to their final roles as it is not changeable in runtime." >
-                    <enum 
-                        key="No fixed routing" 
-                        value="0" />
-                    <enum 
-                        key="Left" 
-                        value="1" />
-                    <enum 
-                        key="Right" 
-                        value="2" />
-                </ConfigItem>
-            </ConfigGroup>
-            <ConfigGroup 
-                Node="Basic" 
-                Id="Device Trim" >
-                <ConfigItem 
-                    LocationItem="BlockId=1126, Word=1, Bit=0, Size=16" 
-                    Range="Min=-720,Max=720" 
-                    Desc="Initial TWS Master device trim gain level, in 1/60th dB" 
-                    Type="int" 
-                    Id="Master Device Trim Gain [dB/60]" />
-                <ConfigItem 
-                    LocationItem="BlockId=1126, Word=2, Bit=0, Size=16" 
-                    Range="Min=-720,Max=720" 
-                    Desc="Initial TWS Slave device trim gain level, in 1/60th dB" 
-                    Type="int" 
-                    Id="Slave Device Trim Gain [dB/60]" />
-                <ConfigItem 
-                    LocationItem="BlockId=1126, Word=3, Bit=0, Size=16" 
-                    Range="Min=0,Max=720" 
-                    Desc="The increment/decrement applied to a device trim to change the current gain level, in 1/60th dB" 
-                    Type="int" 
-                    Id="Device Trim Gain Step Change [dB/60]" />
-                <ConfigItem 
-                    LocationItem="BlockId=1126, Word=4, Bit=0, Size=16" 
-                    Range="Min=-720,Max=720" 
-                    Desc="dB value at minimum volume level, in 1/60th dB" 
-                    Type="int" 
-                    Id="Minimum Device Trim Gain [dB/60]" />
-                <ConfigItem 
-                    LocationItem="BlockId=1126, Word=5, Bit=0, Size=16" 
-                    Range="Min=-720,Max=720" 
-                    Desc="dB value at maximum trim level, in 1/60th dB" 
-                    Type="int" 
-                    Id="Maximum Device Trim Gain [dB/60]" />
-            </ConfigGroup>
-            <ConfigItem 
-                LocationItem="BlockId=1126, Word=6, Bit=15, Size=1" 
-                Type="bool" 
-                Id="Reserve Peer Link" 
-                Desc="Reserves one link normally available for Multipoint for exclusive use by a TWS peer device." />
-            <ConfigItem 
-                LocationItem="BlockId=1136, Word=4, Bit=10, Size=1" 
-                Type="bool" 
-                Id="TWS Source" 
-                Desc="Device supports relay of audio to another TWS device." />
-            <ConfigItem 
-                LocationItem="BlockId=1136, Word=4, Bit=9, Size=1" 
-                Type="bool" 
-                Id="TWS Sink" 
-                Desc="Device supports receiving of audio relayed from another TWS device." />
-            <ConfigItem 
-                LocationItem="BlockId=1136, Word=3, Bit=1, Size=2" 
-                Type="enum" 
-                Id="TWS Pairing Mode" 
-                Desc="Determines how pairing information is retained for TWS devices." >
-                <enum 
-                    key="Temporary" 
-                    value="0" />
-                <enum 
-                    key="Standard" 
-                    value="1" />
-                <enum 
-                    key="Permanent" 
-                    value="2" />
-            </ConfigItem>
-            <ConfigItem 
-                LocationItem="BlockId=1136, Word=4, Bit=14, Size=2" 
-                Type="enum" 
-                Id="Single Device Operation" 
-                Desc="Determines how devices connected in a TWS session behave when issuing AVRCP commands." >
-                <enum 
-                    key="Disabled" 
-                    value="0" />
-                <enum 
-                    key="Single Device with Power Off forwarding" 
-                    value="1" />
-                <enum 
-                    key="Single Device" 
-                    value="2" />
-            </ConfigItem>
-            <ConfigItem 
-                LocationItem="BlockId=1136, Word=3, Bit=9, Size=7" 
-                Type="bitfield" 
-                Id="Available Audio Sources To Peer" 
-                Desc="Enable or disable the required audio source for streaming to Peer in TWS mode. NOTE: Required audio sources MUST be also enabled in the 'Audio' tab." >
-                <bitfield 
-                    key="FM" 
-                    value="0" />
-                <bitfield 
-                    key="Analogue" 
-                    value="1" />
-                <bitfield 
-                    key="S/PDIF" 
-                    value="2" />
-                <bitfield 
-                    key="I2S" 
-                    value="3" />
-                <bitfield 
-                    key="USB" 
-                    value="4" />
-                <bitfield 
-                    key="A2DP1" 
-                    value="5" />
-                <bitfield 
-                    key="A2DP2" 
-                    value="6" />
-            </ConfigItem>
-            <ConfigItem 
-                LocationItem="BlockId=1136, Word=4, Bit=1, Size=1" 
-                Type="bool" 
-                Id="TWS Qualification Enable Peer Open" 
-                Desc="Flag to indicate App to trigger opening of Peer media channel." />
-            <ConfigItem 
-                LocationItem="BlockId=1136, Word=4, Bit=0, Size=1" 
-                Type="bool" 
-                Id="TWS Qualification" 
-                Desc="If enabled then TWS qualification for mandatory(standard) feature shall be enabled." />
-            <ConfigItem 
-                LocationItem="BlockId=1136, Word=1, Bit=0, Size=16" 
-                Type="uint" 
-                Id="PTS qualification source audio streaming delay[ms]" 
-                Desc="Delays the audio streaming from source to the sink. In order to use this delay, user must select TWS Qualification Enable Peer open flag. Recommended value is 1000 millisecond.." />
-        </ConfigGroup>
-        <ConfigItem 
-            LocationItem="BlockId=1136, Word=4, Bit=8, Size=1" 
-            Type="bool" 
-            Id="Use Limited Inquiry Access Code" 
-            Desc="Determines if the LIAC or GIAC is used when pairing Peer devices." />
-        <ConfigItem 
-            LocationItem="BlockId=1136, Word=4, Bit=7, Size=1" 
-            Type="bool" 
-            Id="Use Device ID" 
-            Desc="Peer devices will use the Device Id record to filter suitable devices." />
-        <ConfigItem 
-            LocationItem="BlockId=1136, Word=4, Bit=6, Size=1" 
-            Type="bool" 
-            Id="Use QTIL Peer Device Service UUID" 
-            Desc="Use a fixed QTIL defined 128-bit SDP service UUID to identify Peer device support.
-
-Warning: In order to use a Custom UUID, 'Use QTIL Peer Device Service UUID' should be disabled and the 'Custom Peer Device Service UUID' in 'Configuration Set > Peer Device Support > Custom Peer Device Service UUID' should be updated to contain a non-zero value." />
-        <ConfigItem 
-            LocationItem="BlockId=1136, Word=4, Bit=4, Size=1" 
-            Type="bool" 
-            Id="Always page lost device during link loss" 
-            Desc="Always actively page for a peer or audio source if the link is lost. This may impair the quality of the currently playing audio stream." />
-        <ConfigItem 
-            LocationItem="BlockId=1136, Word=4, Bit=3, Size=1" 
-            Type="bool" 
-            Id="Reconnect AG When Peer Connects" 
-            Desc="Disconnect and re-connect the BT source when a peer device connects." />
-        <ConfigItem 
-            LocationItem="BlockId=1136, Word=4, Bit=2, Size=1" 
-            Type="bool" 
-            Id="Unlock Peer State Machine" 
-            Desc="Allow peer to try establishing a connection." />
-    </ConfigGroup>
-
-    <ConfigGroup 
-        Node="Basic" 
-        Id="Remote Control" >
-        <ConfigGroup 
-            Node="Array" 
-            Id="Input Manager Look-up Table Array" >
-            <ConfigPatternArray 
-                Pattern="eventLookupTable" 
-                LocationPatternArray="BlockId=993, Word=7, PatternSize=3" 
-                MaxNumPatterns="255" 
-                Id="Look Up Table Array Input Manager" />
-        </ConfigGroup>
-        <ConfigGroup 
-            Node="Basic" 
-            Id="BLE Input Monitor" >
-            <ConfigGroup 
-                Node="Array" 
-                Id="Look-up Table" >
-                <ConfigPatternArray 
-                    Pattern="gattHidRcLookupTable" 
-                    LocationPatternArray="BlockId=979, Word=1, PatternSize=1" 
-                    MaxNumPatterns="16" 
-                    Id="BLE Input ID Selection" />
             </ConfigGroup>
         </ConfigGroup>
-        <ConfigItem 
-            LocationItem="BlockId=993, Word=1, Bit=0, Size=16" 
-            Type="uint" 
-            Id="Multiple Detect Timer [ms]" 
-            Desc="Timer that is armed immediately  after the first input is pressed, once this timer fires, no further multiple buttons will be included in the pattern [ms]" />
-        <ConfigItem 
-            LocationItem="BlockId=993, Word=2, Bit=0, Size=16" 
-            Type="uint" 
-            Id="Short Press Timer [ms]" 
-            Desc="After a short duration, this timer will fire, input manager can assign events when short timer fires [ms]" />
-        <ConfigItem 
-            LocationItem="BlockId=993, Word=3, Bit=0, Size=16" 
-            Type="uint" 
-            Id="Long Press Timer [ms]" 
-            Desc="After a long duration, this timer will fire, input manager can assign events when the timer fires [ms]" />
-        <ConfigItem 
-            LocationItem="BlockId=993, Word=4, Bit=0, Size=16" 
-            Type="uint" 
-            Id="Very Long Press Timer [ms]" 
-            Desc="After a very long duration, this timer will fire, input manager can assign events when the timer fires [ms]" />
-        <ConfigItem 
-            LocationItem="BlockId=993, Word=5, Bit=0, Size=16" 
-            Type="uint" 
-            Id="Very Very Long Press Timer [ms]" 
-            Desc="After a very very long duration, this timer will fire, input manager can assign events when the timer fires [ms]" />
-        <ConfigItem 
-            LocationItem="BlockId=993, Word=6, Bit=0, Size=16" 
-            Type="uint" 
-            Id="Repeat Timer [ms]" 
-            Desc="Every repeatTimer duration, this timer will fire, input manager can assign events on short timer firing, such as repeated volume events [ms]" />
     </ConfigGroup>
 
     <ConfigGroup 
@@ -10841,17 +9420,17 @@ Warning: In order to use a Custom UUID, 'Use QTIL Peer Device Service UUID' shou
                 Id="Mute duration on Power down [ms]" 
                 Desc="The delay in milliseconds between the Audio Mute pin being driven and the Power state output pin indicating power down." />
             <ConfigItem 
-                LocationItem="BlockId=1113, Word=1, Bit=0, Size=16" 
+                LocationItem="BlockId=1005, Word=1, Bit=0, Size=16" 
                 Desc="The time in seconds elapsed after the last GAIA command has been received to store EQ settings into PS Store." 
                 Type="uint" 
                 Id="GAIA User Defined EQ Settings Persistent Store Timeout [s]" />
             <ConfigItem 
-                LocationItem="BlockId=1162, Word=1, Bit=0, Size=16" 
+                LocationItem="BlockId=1028, Word=1, Bit=0, Size=16" 
                 Desc="The elapsed time, in seconds, before the device is powered off after a wired audio source is connected." 
                 Type="uint" 
                 Id="Wired Audio Connected PowerOff Timeout [s]" />
             <ConfigItem 
-                LocationItem="BlockId=1162, Word=2, Bit=0, Size=16" 
+                LocationItem="BlockId=1028, Word=2, Bit=0, Size=16" 
                 Type="uint" 
                 Id="Analogue Audio Disconnection debounce [ms]" 
                 Desc="Analogue audio disconnection debounce period in milliseconds. Prevents the audio stream from being destroyed and then recreated in quick succession if the analogue audio detection changes within the specified time." />
@@ -10906,7 +9485,7 @@ Warning: In order to use a Custom UUID, 'Use QTIL Peer Device Service UUID' shou
             Id="Disable Complete Power Off" 
             Desc="When set, this feature prevents the Sink device from physically powering off after the device is made logically off, for example, after a user initiated power off event. The device will still physically power off if the battery level reaches a critical level or temperature is outside of operating limits." />
         <ConfigItem 
-            LocationItem="BlockId=1162, Word=7, Bit=11, Size=1" 
+            LocationItem="BlockId=1028, Word=7, Bit=11, Size=1" 
             Desc="When set the Sink is powered off after the wired audio is connected" 
             Type="bool" 
             Id="Power Off after Wired Audio Connected" />
@@ -11213,91 +9792,32 @@ Warning: In order to use a Custom UUID, 'Use QTIL Peer Device Service UUID' shou
                 Id="GAIA_pio_translation" >
                 <ConfigPatternArray 
                     Pattern="gaia_pio_pattern" 
-                    LocationPatternArray="BlockId=1119, Word=1, PatternSize=1" 
+                    LocationPatternArray="BlockId=1011, Word=1, PatternSize=1" 
                     MaxNumPatterns="32" 
                     Id="GAIA PIO Array" />
             </ConfigGroup>
         </ConfigGroup>
         <ConfigItem 
-            LocationItem="BlockId=1113, Word=2, Bit=11, Size=1" 
+            LocationItem="BlockId=1005, Word=2, Bit=11, Size=1" 
             Desc="GAIA session enabled on connection." 
             Type="bool" 
             Id="Enable GAIA Session" />
         <ConfigItem 
-            LocationItem="BlockId=1113, Word=2, Bit=12, Size=4" 
+            LocationItem="BlockId=1005, Word=2, Bit=12, Size=4" 
             Range="Min=0,Max=14" 
             Desc="This specifies the SQIF partition to use for GAIA Over-the-Air Device Firmware Upgrade." 
             Type="uint" 
             Id="GAIA DFU Partition" />
         <ConfigItem 
-            LocationItem="BlockId=1113, Word=2, Bit=10, Size=1" 
+            LocationItem="BlockId=1005, Word=2, Bit=10, Size=1" 
             Desc="GAIA connection remains after power off." 
             Type="bool" 
             Id="Maintain Connection After Power Off" />
     </ConfigGroup>
 
     <ConfigGroup 
-        Node="Basic" 
-        Id="Upgrade" >
-        <ConfigItem 
-            LocationItem="BlockId=1459, Word=1, Bit=15, Size=1" 
-            Desc="If this is true then the application configuration will be reset to the default values built into the upgraded application when an upgrade is committed." 
-            Type="bool" 
-            Id="Enable Application Config Reset" />
-        <ConfigItem 
-            LocationItem="BlockId=1459, Word=1, Bit=14, Size=1" 
-            Desc="If Disabled, upgrade improvements will apply and ongoing audio streaming will be suspended on an upgrade. If Enabled, ongoing audio will continue streaming, while upgrade improvements will not be applicable." 
-            Type="bool" 
-            Id="Protect Audio During Upgrade" />
-    </ConfigGroup>
-
-    <ConfigGroup 
         Node="Expert" 
         Id="Advanced Settings that were an Expert Node" >
-        <ConfigGroup 
-            Node="Basic" 
-            Id="PMU Charger Monitor" >
-            <ConfigItem 
-                LocationItem="BlockId=1329, Word=1, Bit=0, Size=16" 
-                Type="uint" 
-                Id="Minimum charge current [mA]" 
-                Desc="The charge current will not be decreased below this minimum level by the PMU Charger Monitor." />
-            <ConfigItem 
-                LocationItem="BlockId=1329, Word=2, Bit=0, Size=16" 
-                Type="uint" 
-                Id="Maximum charge current [mA]" 
-                Desc="The charge current will not be increased above this maximum level by the PMU Charger Monitor." />
-            <ConfigItem 
-                LocationItem="BlockId=1329, Word=6, Bit=8, Size=8" 
-                Type="uint" 
-                Id="Charger current step size [mA]" 
-                Desc="This is the amount by which the charge current will be altered when it is between the minimum and maximum charge levels based on the monitored temperature." />
-            <ConfigItem 
-                LocationItem="BlockId=1329, Word=6, Bit=0, Size=8" 
-                Type="uint" 
-                Id="Temp Lower Bound [degC]" 
-                Desc="Temperature where current will not be increased. This forms the lower temperature bound for the PMU monitor. Below this temperature the current will not be increased." />
-            <ConfigItem 
-                LocationItem="BlockId=1329, Word=7, Bit=8, Size=8" 
-                Type="uint" 
-                Id="Temp Upper Bound [degC]" 
-                Desc="Temperature where current will be decreased. This forms the upper limit of the tolerated temperature bound after which the charge current will be decreased." />
-            <ConfigItem 
-                LocationItem="BlockId=1329, Word=3, Bit=0, Size=16" 
-                Type="uint" 
-                Id="Temp monitor period if charger active [ms]" 
-                Desc="Temperature monitoring period when the charger is active [ms]." />
-            <ConfigItem 
-                LocationItem="BlockId=1329, Word=4, Bit=0, Size=16" 
-                Type="uint" 
-                Id="Temp monitor period if charger idle [ms]" 
-                Desc="Temperature monitoring period when the charger is idle [ms]." />
-            <ConfigItem 
-                LocationItem="BlockId=1329, Word=5, Bit=0, Size=16" 
-                Type="uint" 
-                Id="Temp monitor period if charger has no power [ms]" 
-                Desc="Temperature monitoring period when the charger has no power [ms]." />
-        </ConfigGroup>
         <ConfigGroup 
             Node="Basic" 
             Id="LED Session Config Block" >
@@ -11438,15 +9958,10 @@ Warning: In order to use a Custom UUID, 'Use QTIL Peer Device Service UUID' shou
                 Type="bool" 
                 Id="Volume Orientation button inverted state" />
             <ConfigItem 
-                LocationItem="BlockId=1178, Word=9, Bit=0, Size=8" 
+                LocationItem="BlockId=1044, Word=9, Bit=0, Size=8" 
                 Desc="Specifies the length of the I2C Raw Command Data block." 
                 Type="uint" 
                 Id="I2C Raw Command Data Configuration Length" />
-            <ConfigItem 
-                LocationItem="BlockId=1318, Word=1, Bit=15, Size=1" 
-                Desc="1 = Enable Low Battery intelligent Power Management, 0 = Disable Low Battery intelligent Power Management." 
-                Type="bool" 
-                Id="LBIMP Enable" />
         </ConfigGroup>
         <ConfigGroup 
             Node="Basic" 
@@ -11540,30 +10055,6 @@ Warning: In order to use a Custom UUID, 'Use QTIL Peer Device Service UUID' shou
             <enum 
                 value="4" 
                 key="DUT I2S Input" />
-        </ConfigItem>
-        <ConfigItem 
-            LocationItem="BlockId=1340, Word=2, Bit=8, Size=8" 
-            Desc="The Vref input can be configured to use any of the available input sources given below." 
-            Type="enum" 
-            Id="Vref ADC Source" >
-            <List 
-                use="adc_sources" />
-        </ConfigItem>
-        <ConfigItem 
-            LocationItem="BlockId=1346, Word=2, Bit=8, Size=8" 
-            Desc="The Vbat input can be configured to use any of the available input sources given below." 
-            Type="enum" 
-            Id="Vbat ADC Source" >
-            <List 
-                use="adc_sources" />
-        </ConfigItem>
-        <ConfigItem 
-            LocationItem="BlockId=1414, Word=2, Bit=8, Size=8" 
-            Desc="." 
-            Type="enum" 
-            Id="Vchg ADC Source" >
-            <List 
-                use="adc_sources" />
         </ConfigItem>
         <ConfigItem 
             LocationItem="BlockId=438, Word=10, Bit=0, Size=16" 

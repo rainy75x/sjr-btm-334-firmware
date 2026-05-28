@@ -67,7 +67,84 @@ depend_Speaker_qcc512x_qcc302x/sink_auth.o: ..\..\sink_auth.c \
     ..\..\sink_states.h \
     ..\..\sink_auth.h \
     ..\..\..\..\installed_libs\include\profiles\default_qcc512x_qcc302x\connection.h \
+    ..\..\sink_ba.h \
+    ..\..\sink_events.h \
+    ..\..\sink_audio_routing.h \
+    ..\..\..\..\installed_libs\include\firmware_qcc512x_qcc302x\sink.h \
+    ..\..\..\..\installed_libs\include\firmware_qcc512x_qcc302x\sink_.h \
     ..\..\..\..\installed_libs\include\firmware_qcc512x_qcc302x\bdaddr_.h \
+    ..\..\..\..\installed_libs\include\firmware_qcc512x_qcc302x\app\vm\vm_if.h \
+    ..\..\..\..\installed_libs\include\firmware_qcc512x_qcc302x\app\stream\stream_if.h \
+    ..\..\..\..\installed_libs\include\firmware_qcc512x_qcc302x\app\bluestack\types.h \
+    ..\..\..\..\installed_libs\include\profiles\default_qcc512x_qcc302x\hfp.h \
+    ..\..\..\..\installed_libs\include\profiles\default_qcc512x_qcc302x\library.h \
+    ..\..\..\..\installed_libs\include\firmware_qcc512x_qcc302x\bdaddr_.h \
+    ..\..\..\..\installed_libs\include\profiles\default_qcc512x_qcc302x\connection.h \
+    ..\..\..\..\installed_libs\include\firmware_qcc512x_qcc302x\message.h \
+    ..\..\..\..\installed_libs\include\profiles\default_qcc512x_qcc302x\audio_plugin_if.h \
+    ..\..\..\..\installed_libs\include\profiles\default_qcc512x_qcc302x\library.h \
+    ..\..\..\..\installed_libs\include\profiles\default_qcc512x_qcc302x\power.h \
+    ..\..\..\..\installed_libs\include\firmware_qcc512x_qcc302x\adc.h \
+    ..\..\..\..\installed_libs\include\firmware_qcc512x_qcc302x\message_.h \
+    ..\..\..\..\installed_libs\include\firmware_qcc512x_qcc302x\app\vm\vm_if.h \
+    ..\..\..\..\installed_libs\include\firmware_qcc512x_qcc302x\app\adc\adc_if.h \
+    ..\..\..\..\installed_libs\include\firmware_qcc512x_qcc302x\charger.h \
+    ..\..\..\..\installed_libs\include\profiles\default_qcc512x_qcc302x\library.h \
+    ..\..\..\..\installed_libs\include\firmware_qcc512x_qcc302x\stream.h \
+    ..\..\..\..\installed_libs\include\firmware_qcc512x_qcc302x\bdaddr_.h \
+    ..\..\..\..\installed_libs\include\firmware_qcc512x_qcc302x\source_.h \
+    ..\..\..\..\installed_libs\include\firmware_qcc512x_qcc302x\sink_.h \
+    ..\..\..\..\installed_libs\include\firmware_qcc512x_qcc302x\transform_.h \
+    ..\..\..\..\installed_libs\include\firmware_qcc512x_qcc302x\app\vm\vm_if.h \
+    ..\..\..\..\installed_libs\include\firmware_qcc512x_qcc302x\app\file\file_if.h \
+    ..\..\..\..\installed_libs\include\firmware_qcc512x_qcc302x\app\uart\uart_if.h \
+    ..\..\..\..\installed_libs\include\firmware_qcc512x_qcc302x\app\stream\stream_if.h \
+    ..\..\..\..\installed_libs\include\firmware_qcc512x_qcc302x\app\usb\usb_if.h \
+    ..\..\..\..\installed_libs\include\firmware_qcc512x_qcc302x\app\partition\partition_if.h \
+    ..\..\..\..\installed_libs\include\firmware_qcc512x_qcc302x\app\voltsense\voltsense_if.h \
+    ..\..\..\..\installed_libs\include\firmware_qcc512x_qcc302x\operator_.h \
+    ..\..\..\..\installed_libs\include\firmware_qcc512x_qcc302x\app\audio\audio_if.h \
+    ..\..\..\..\installed_libs\include\firmware_qcc512x_qcc302x\app\ringtone\ringtone_if.h \
+    ..\..\..\..\installed_libs\include\firmware_qcc512x_qcc302x\app\ringtone\ringtone_notes.h \
+    ..\..\..\..\installed_libs\include\profiles\default_qcc512x_qcc302x\audio_output.h \
+    ..\..\..\..\installed_libs\include\firmware_qcc512x_qcc302x\stream.h \
+    ..\..\..\..\installed_libs\include\firmware_qcc512x_qcc302x\panic.h \
+    ..\..\..\..\installed_libs\include\profiles\default_qcc512x_qcc302x\audio_instance.h \
+    ..\..\..\..\installed_libs\include\firmware_qcc512x_qcc302x\sink.h \
+    ..\..\..\..\installed_libs\include\firmware_qcc512x_qcc302x\message.h \
+    ..\..\..\..\installed_libs\include\profiles\default_qcc512x_qcc302x\audio_plugin_if.h \
+    ..\..\sink_audio_routing_config_def.h \
+    ..\..\config_definition.h \
+    ..\..\..\..\installed_libs\include\firmware_qcc512x_qcc302x\message.h \
+    ..\..\..\..\installed_libs\include\profiles\default_qcc512x_qcc302x\broadcast_context.h \
+    ..\..\..\..\installed_libs\include\profiles\default_qcc512x_qcc302x\broadcast.h \
+    ..\..\..\..\installed_libs\include\profiles\default_qcc512x_qcc302x\library.h \
+    ..\..\..\..\installed_libs\include\firmware_qcc512x_qcc302x\message.h \
+    ..\..\..\..\installed_libs\include\profiles\default_qcc512x_qcc302x\bdaddr.h \
+    ..\..\..\..\installed_libs\include\firmware_qcc512x_qcc302x\bdaddr_.h \
+    ..\..\..\..\installed_libs\include\firmware_qcc512x_qcc302x\panic.h \
+    ..\..\..\..\installed_libs\include\firmware_qcc512x_qcc302x\app\bluestack\types.h \
+    ..\..\..\..\installed_libs\include\firmware_qcc512x_qcc302x\app\bluestack\bluetooth.h \
+    ..\..\..\..\installed_libs\include\firmware_qcc512x_qcc302x\app\bluestack\types.h \
+    ..\..\..\..\installed_libs\include\firmware_qcc512x_qcc302x\sink.h \
+    ..\..\..\..\installed_libs\include\firmware_qcc512x_qcc302x\source.h \
+    ..\..\..\..\installed_libs\include\firmware_qcc512x_qcc302x\source_.h \
+    ..\..\..\..\installed_libs\include\firmware_qcc512x_qcc302x\app\vm\vm_if.h \
+    ..\..\..\..\installed_libs\include\firmware_qcc512x_qcc302x\app\stream\stream_if.h \
+    ..\..\..\..\installed_libs\include\profiles\default_qcc512x_qcc302x\connection.h \
+    ..\..\..\..\installed_libs\include\firmware_qcc512x_qcc302x\csb.h \
+    ..\..\..\..\installed_libs\include\firmware_qcc512x_qcc302x\bdaddr_.h \
+    ..\..\..\..\installed_libs\include\firmware_qcc512x_qcc302x\csb_.h \
+    ..\..\..\..\installed_libs\include\profiles\default_qcc512x_qcc302x\scm.h \
+    ..\..\..\..\installed_libs\include\profiles\default_qcc512x_qcc302x\library.h \
+    ..\..\..\..\installed_libs\include\firmware_qcc512x_qcc302x\message.h \
+    ..\..\..\..\installed_libs\include\profiles\default_qcc512x_qcc302x\bdaddr.h \
+    ..\..\..\..\installed_libs\include\firmware_qcc512x_qcc302x\sink.h \
+    ..\..\..\..\installed_libs\include\firmware_qcc512x_qcc302x\source.h \
+    ..\..\..\..\installed_libs\include\profiles\default_qcc512x_qcc302x\connection.h \
+    ..\..\..\..\installed_libs\include\firmware_qcc512x_qcc302x\sink.h \
+    ..\..\sink_malloc_debug.h \
+    ..\..\..\..\installed_libs\include\firmware_qcc512x_qcc302x\panic.h \
     ..\..\sink_devicemanager.h \
     ..\..\..\..\installed_libs\include\profiles\default_qcc512x_qcc302x\connection.h \
     ..\..\sink_configmanager.h \
@@ -112,34 +189,8 @@ depend_Speaker_qcc512x_qcc302x/sink_auth.o: ..\..\sink_auth.c \
     ..\..\..\..\installed_libs\include\profiles\default_qcc512x_qcc302x\library.h \
     ..\..\..\..\installed_libs\include\profiles\default_qcc512x_qcc302x\gatt_broadcast_server.h \
     ..\..\..\..\installed_libs\include\profiles\default_qcc512x_qcc302x\broadcast.h \
-    ..\..\..\..\installed_libs\include\profiles\default_qcc512x_qcc302x\library.h \
     ..\..\..\..\installed_libs\include\firmware_qcc512x_qcc302x\message.h \
     ..\..\..\..\installed_libs\include\profiles\default_qcc512x_qcc302x\bdaddr.h \
-    ..\..\..\..\installed_libs\include\firmware_qcc512x_qcc302x\bdaddr_.h \
-    ..\..\..\..\installed_libs\include\firmware_qcc512x_qcc302x\panic.h \
-    ..\..\..\..\installed_libs\include\firmware_qcc512x_qcc302x\app\bluestack\types.h \
-    ..\..\..\..\installed_libs\include\firmware_qcc512x_qcc302x\app\bluestack\bluetooth.h \
-    ..\..\..\..\installed_libs\include\firmware_qcc512x_qcc302x\app\bluestack\types.h \
-    ..\..\..\..\installed_libs\include\firmware_qcc512x_qcc302x\sink.h \
-    ..\..\..\..\installed_libs\include\firmware_qcc512x_qcc302x\sink_.h \
-    ..\..\..\..\installed_libs\include\firmware_qcc512x_qcc302x\bdaddr_.h \
-    ..\..\..\..\installed_libs\include\firmware_qcc512x_qcc302x\app\vm\vm_if.h \
-    ..\..\..\..\installed_libs\include\firmware_qcc512x_qcc302x\app\stream\stream_if.h \
-    ..\..\..\..\installed_libs\include\firmware_qcc512x_qcc302x\app\bluestack\types.h \
-    ..\..\..\..\installed_libs\include\firmware_qcc512x_qcc302x\source.h \
-    ..\..\..\..\installed_libs\include\firmware_qcc512x_qcc302x\source_.h \
-    ..\..\..\..\installed_libs\include\firmware_qcc512x_qcc302x\app\vm\vm_if.h \
-    ..\..\..\..\installed_libs\include\firmware_qcc512x_qcc302x\app\stream\stream_if.h \
-    ..\..\..\..\installed_libs\include\profiles\default_qcc512x_qcc302x\connection.h \
-    ..\..\..\..\installed_libs\include\firmware_qcc512x_qcc302x\csb.h \
-    ..\..\..\..\installed_libs\include\firmware_qcc512x_qcc302x\bdaddr_.h \
-    ..\..\..\..\installed_libs\include\firmware_qcc512x_qcc302x\csb_.h \
-    ..\..\..\..\installed_libs\include\firmware_qcc512x_qcc302x\message.h \
-    ..\..\..\..\installed_libs\include\profiles\default_qcc512x_qcc302x\bdaddr.h \
-    ..\..\..\..\installed_libs\include\profiles\default_qcc512x_qcc302x\gatt_fast_pair_server.h \
-    ..\..\..\..\installed_libs\include\firmware_qcc512x_qcc302x\message.h \
-    ..\..\..\..\installed_libs\include\profiles\default_qcc512x_qcc302x\library.h \
-    ..\..\..\..\installed_libs\include\profiles\default_qcc512x_qcc302x\gatt_manager.h \
     ..\..\sink_inquiry.h \
     ..\..\..\..\installed_libs\include\profiles\default_qcc512x_qcc302x\bdaddr.h \
     ..\..\..\..\installed_libs\include\profiles\default_qcc512x_qcc302x\connection_no_ble.h \
@@ -149,33 +200,6 @@ depend_Speaker_qcc512x_qcc302x/sink_auth.o: ..\..\sink_auth.c \
     ..\..\..\..\installed_libs\include\profiles\default_qcc512x_qcc302x\bdaddr.h \
     ..\..\..\..\installed_libs\include\profiles\default_qcc512x_qcc302x\pio_common.h \
     ..\..\..\..\installed_libs\include\profiles\default_qcc512x_qcc302x\audio_plugin_if.h \
-    ..\..\..\..\installed_libs\include\profiles\default_qcc512x_qcc302x\library.h \
-    ..\..\..\..\installed_libs\include\profiles\default_qcc512x_qcc302x\power.h \
-    ..\..\..\..\installed_libs\include\firmware_qcc512x_qcc302x\adc.h \
-    ..\..\..\..\installed_libs\include\firmware_qcc512x_qcc302x\message_.h \
-    ..\..\..\..\installed_libs\include\firmware_qcc512x_qcc302x\app\vm\vm_if.h \
-    ..\..\..\..\installed_libs\include\firmware_qcc512x_qcc302x\app\adc\adc_if.h \
-    ..\..\..\..\installed_libs\include\firmware_qcc512x_qcc302x\charger.h \
-    ..\..\..\..\installed_libs\include\profiles\default_qcc512x_qcc302x\library.h \
-    ..\..\..\..\installed_libs\include\firmware_qcc512x_qcc302x\stream.h \
-    ..\..\..\..\installed_libs\include\firmware_qcc512x_qcc302x\bdaddr_.h \
-    ..\..\..\..\installed_libs\include\firmware_qcc512x_qcc302x\source_.h \
-    ..\..\..\..\installed_libs\include\firmware_qcc512x_qcc302x\sink_.h \
-    ..\..\..\..\installed_libs\include\firmware_qcc512x_qcc302x\transform_.h \
-    ..\..\..\..\installed_libs\include\firmware_qcc512x_qcc302x\app\vm\vm_if.h \
-    ..\..\..\..\installed_libs\include\firmware_qcc512x_qcc302x\app\file\file_if.h \
-    ..\..\..\..\installed_libs\include\firmware_qcc512x_qcc302x\app\uart\uart_if.h \
-    ..\..\..\..\installed_libs\include\firmware_qcc512x_qcc302x\app\stream\stream_if.h \
-    ..\..\..\..\installed_libs\include\firmware_qcc512x_qcc302x\app\usb\usb_if.h \
-    ..\..\..\..\installed_libs\include\firmware_qcc512x_qcc302x\app\partition\partition_if.h \
-    ..\..\..\..\installed_libs\include\firmware_qcc512x_qcc302x\app\voltsense\voltsense_if.h \
-    ..\..\..\..\installed_libs\include\firmware_qcc512x_qcc302x\operator_.h \
-    ..\..\..\..\installed_libs\include\firmware_qcc512x_qcc302x\app\audio\audio_if.h \
-    ..\..\..\..\installed_libs\include\firmware_qcc512x_qcc302x\app\ringtone\ringtone_if.h \
-    ..\..\..\..\installed_libs\include\firmware_qcc512x_qcc302x\app\ringtone\ringtone_notes.h \
-    ..\..\..\..\installed_libs\include\profiles\default_qcc512x_qcc302x\audio_output.h \
-    ..\..\..\..\installed_libs\include\firmware_qcc512x_qcc302x\stream.h \
-    ..\..\..\..\installed_libs\include\firmware_qcc512x_qcc302x\panic.h \
     ..\..\sink_avrcp.h \
     ..\..\..\..\installed_libs\include\firmware_qcc512x_qcc302x\message.h \
     ..\..\..\..\installed_libs\include\firmware_qcc512x_qcc302x\app\message\system_message.h \
@@ -183,21 +207,8 @@ depend_Speaker_qcc512x_qcc302x/sink_auth.o: ..\..\sink_auth.c \
     ..\..\..\..\installed_libs\include\profiles\default_qcc512x_qcc302x\audio_plugin_if.h \
     ..\..\..\..\installed_libs\include\profiles\default_qcc512x_qcc302x\audio_data_types.h \
     ..\..\..\..\installed_libs\include\profiles\default_qcc512x_qcc302x\hfp.h \
-    ..\..\..\..\installed_libs\include\profiles\default_qcc512x_qcc302x\library.h \
-    ..\..\..\..\installed_libs\include\firmware_qcc512x_qcc302x\bdaddr_.h \
-    ..\..\..\..\installed_libs\include\profiles\default_qcc512x_qcc302x\connection.h \
-    ..\..\..\..\installed_libs\include\firmware_qcc512x_qcc302x\message.h \
     ..\..\sink_events.h \
     ..\..\sink_audio_routing.h \
-    ..\..\..\..\installed_libs\include\firmware_qcc512x_qcc302x\sink.h \
-    ..\..\..\..\installed_libs\include\profiles\default_qcc512x_qcc302x\hfp.h \
-    ..\..\..\..\installed_libs\include\profiles\default_qcc512x_qcc302x\audio_plugin_if.h \
-    ..\..\..\..\installed_libs\include\profiles\default_qcc512x_qcc302x\audio_instance.h \
-    ..\..\..\..\installed_libs\include\firmware_qcc512x_qcc302x\sink.h \
-    ..\..\..\..\installed_libs\include\firmware_qcc512x_qcc302x\message.h \
-    ..\..\..\..\installed_libs\include\profiles\default_qcc512x_qcc302x\audio_plugin_if.h \
-    ..\..\sink_audio_routing_config_def.h \
-    ..\..\config_definition.h \
     ..\..\..\..\installed_libs\include\profiles\default_qcc512x_qcc302x\avrcp.h \
     ..\..\..\..\installed_libs\include\firmware_qcc512x_qcc302x\bdaddr_.h \
     ..\..\..\..\installed_libs\include\profiles\default_qcc512x_qcc302x\library.h \
@@ -216,23 +227,6 @@ depend_Speaker_qcc512x_qcc302x/sink_auth.o: ..\..\sink_auth.c \
     ..\..\..\..\installed_libs\include\profiles\default_qcc512x_qcc302x\a2dp.h \
     ..\..\..\..\installed_libs\include\profiles\default_qcc512x_qcc302x\audio_plugin_if.h \
     ..\..\sink_peer.h \
-    ..\..\sink_ba.h \
-    ..\..\sink_events.h \
-    ..\..\sink_audio_routing.h \
-    ..\..\..\..\installed_libs\include\firmware_qcc512x_qcc302x\message.h \
-    ..\..\..\..\installed_libs\include\profiles\default_qcc512x_qcc302x\broadcast_context.h \
-    ..\..\..\..\installed_libs\include\profiles\default_qcc512x_qcc302x\broadcast.h \
-    ..\..\..\..\installed_libs\include\profiles\default_qcc512x_qcc302x\scm.h \
-    ..\..\..\..\installed_libs\include\profiles\default_qcc512x_qcc302x\library.h \
-    ..\..\..\..\installed_libs\include\firmware_qcc512x_qcc302x\message.h \
-    ..\..\..\..\installed_libs\include\profiles\default_qcc512x_qcc302x\bdaddr.h \
-    ..\..\..\..\installed_libs\include\firmware_qcc512x_qcc302x\sink.h \
-    ..\..\..\..\installed_libs\include\firmware_qcc512x_qcc302x\source.h \
-    ..\..\..\..\installed_libs\include\profiles\default_qcc512x_qcc302x\connection.h \
-    ..\..\..\..\installed_libs\include\firmware_qcc512x_qcc302x\sink.h \
-    ..\..\sink_malloc_debug.h \
-    ..\..\..\..\installed_libs\include\firmware_qcc512x_qcc302x\panic.h \
-    ..\..\sink_devicemanager.h \
     ..\..\sink_debug.h \
     ..\..\sink_ble_gap.h \
     ..\..\..\..\installed_libs\include\profiles\default_qcc512x_qcc302x\connection.h \

@@ -263,10 +263,6 @@ depend_Speaker_qcc512x_qcc302x/sink_usb.o: ..\..\sink_usb.c \
     ..\..\..\..\installed_libs\include\profiles\default_qcc512x_qcc302x\broadcast.h \
     ..\..\..\..\installed_libs\include\firmware_qcc512x_qcc302x\message.h \
     ..\..\..\..\installed_libs\include\profiles\default_qcc512x_qcc302x\bdaddr.h \
-    ..\..\..\..\installed_libs\include\profiles\default_qcc512x_qcc302x\gatt_fast_pair_server.h \
-    ..\..\..\..\installed_libs\include\firmware_qcc512x_qcc302x\message.h \
-    ..\..\..\..\installed_libs\include\profiles\default_qcc512x_qcc302x\library.h \
-    ..\..\..\..\installed_libs\include\profiles\default_qcc512x_qcc302x\gatt_manager.h \
     ..\..\sink_inquiry.h \
     ..\..\sink_peer.h \
     ..\..\sink_a2dp.h \
@@ -292,8 +288,6 @@ depend_Speaker_qcc512x_qcc302x/sink_usb.o: ..\..\sink_usb.c \
     ..\..\sink_usb_config_def.h \
     ..\..\config_definition.h \
     ..\..\sink_usb_charger_config_def.h \
-    ..\..\config_definition.h \
-    ..\..\sink_usb_proprietary_charger_config_def.h \
     ..\..\config_definition.h \
     ..\..\..\..\installed_libs\include\profiles\default_qcc512x_qcc302x\hid_upgrade.h \
     ..\..\..\..\installed_libs\include\firmware_qcc512x_qcc302x\usb_hub.h \

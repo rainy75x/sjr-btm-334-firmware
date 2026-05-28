@@ -801,6 +801,8 @@ static bool sinkPowerProcessEventPower(const MessageId EventPower)
                  sinkBlePowerOnEvent();
 
                 sinkBroadcastAudioHandleUserPowerOn();
+
+                PioDrivePio(PIO_AUDIO_ACTIVE, TRUE);
                 
                 PioDriveUserPio(PioGetUserPioState());
 
@@ -1282,6 +1284,7 @@ static void handleUEMessage  ( Task task, MessageId id, Message message )
                 {
                     sinkInquirySetInquirySession(inquiry_session_normal);
                     stateManagerEnterConnDiscoverableState( TRUE );
+                    
 #ifdef ENABLE_FAST_PAIR
                     if(stateManagerGetState() == deviceConnDiscoverable)
                         sinkFastPairSetDiscoverabilityStatus(user_triggered_discoverability);

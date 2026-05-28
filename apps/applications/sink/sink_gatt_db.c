@@ -32,89 +32,29 @@ const uint16 gattDatabase[] = {
     0x3005, 0x020b, 0x0001, 0x2a00,
     /* 000b:  */
     0xd400,
-    /* 000c: Primary Service 1804 */
-    0x0002, 0x0418,
-    /* 000d: Characteristic Declaration 2a07 */
-    0x3045, 0x020e, 0x0007, 0x2a00,
-    /* 000e: . */
-    0xd401, 0x0000,
-    /* 000f: Primary Service 1802 */
+    /* 000c: Primary Service 1802 */
     0x0002, 0x0218,
-    /* 0010: Characteristic Declaration 2a06 */
-    0x3005, 0x0411, 0x0006, 0x2a00,
-    /* 0011: . */
+    /* 000d: Characteristic Declaration 2a06 */
+    0x3005, 0x040e, 0x0006, 0x2a00,
+    /* 000e: . */
     0xd501, 0x0000,
-    /* 0012: Primary Service 1803 */
-    0x0002, 0x0318,
-    /* 0013: Characteristic Declaration 2a06 */
-    0x3045, 0x0a14, 0x0006, 0x2a00,
-    /* 0014: . */
-    0xd501, 0x0000,
-    /* 0015: Primary Service 00001100-d102-11e1-9b23-00025b00a5a5 */
+    /* 000f: Primary Service 00001100-d102-11e1-9b23-00025b00a5a5 */
     0x0010, 0xa5a5, 0x005b, 0x0200, 0x239b, 0xe111, 0x02d1, 0x0011, 0x0000,
-    /* 0016: Characteristic Declaration 00001101-d102-11e1-9b23-00025b00a5a5 */
-    0x3013, 0x0817, 0x00a5, 0xa500, 0x5b02, 0x0023, 0x9be1, 0x1102, 0xd101, 0x1100, 0x0000,
-    /* 0017: . */
+    /* 0010: Characteristic Declaration 00001101-d102-11e1-9b23-00025b00a5a5 */
+    0x3013, 0x0811, 0x00a5, 0xa500, 0x5b02, 0x0023, 0x9be1, 0x1102, 0xd101, 0x1100, 0x0000,
+    /* 0011: . */
     0xcd01, 0x0000,
-    /* 0018: Characteristic Declaration 00001102-d102-11e1-9b23-00025b00a5a5 */
-    0x3013, 0x1219, 0x00a5, 0xa500, 0x5b02, 0x0023, 0x9be1, 0x1102, 0xd102, 0x1100, 0x0000,
-    /* 0019: . */
+    /* 0012: Characteristic Declaration 00001102-d102-11e1-9b23-00025b00a5a5 */
+    0x3013, 0x1213, 0x00a5, 0xa500, 0x5b02, 0x0023, 0x9be1, 0x1102, 0xd102, 0x1100, 0x0000,
+    /* 0013: . */
     0xcc01, 0x0000,
-    /* 001a: Client Characteristic Configuration */
+    /* 0014: Client Characteristic Configuration */
     0x6c00,
-    /* 001b: Characteristic Declaration 00001103-d102-11e1-9b23-00025b00a5a5 */
-    0x3053, 0x161c, 0x00a5, 0xa500, 0x5b02, 0x0023, 0x9be1, 0x1102, 0xd103, 0x1100, 0x0000,
-    /* 001c: . */
+    /* 0015: Characteristic Declaration 00001103-d102-11e1-9b23-00025b00a5a5 */
+    0x3053, 0x1616, 0x00a5, 0xa500, 0x5b02, 0x0023, 0x9be1, 0x1102, 0xd103, 0x1100, 0x0000,
+    /* 0016: . */
     0xcd01, 0x0000,
-    /* 001d: Client Characteristic Configuration */
-    0x6c00,
-    /* 001e: Primary Service fe2c */
-    0x0002, 0x2cfe,
-    /* 001f: Characteristic Declaration 1234 */
-    0x3005, 0x2820, 0x0034, 0x1200,
-    /* 0020: .. */
-    0xdc02, 0x0000,
-    /* 0021: Client Characteristic Configuration */
-    0x6402, 0x0000,
-    /* 0022: Characteristic Declaration 1235 */
-    0x3005, 0x2823, 0x0035, 0x1200,
-    /* 0023: .. */
-    0xdc02, 0x0000,
-    /* 0024: Client Characteristic Configuration */
-    0x6402, 0x0000,
-    /* 0025: Characteristic Declaration 1236 */
-    0x3005, 0x0826, 0x0036, 0x1200,
-    /* 0026: .. */
-    0xdc02, 0x0000,
-    /* 0027: Primary Service 180f */
-    0x0002, 0x0f18,
-    /* 0028: Characteristic Declaration 2a19 */
-    0x3005, 0x1229, 0x0019, 0x2a00,
-    /* 0029: . */
-    0xd401, 0x0000,
-    /* 002a: Characteristic Presentation Format, rfu, 0 */
-    0x8c07, 0x0000, 0x0000, 0x0000, 0x0000,
-    /* 002b: Client Characteristic Configuration */
-    0x6c00,
-    /* 002c: Primary Service 180f */
-    0x0002, 0x0f18,
-    /* 002d: Characteristic Declaration 2a19 */
-    0x3005, 0x122e, 0x0019, 0x2a00,
-    /* 002e: . */
-    0xd401, 0x0000,
-    /* 002f: Characteristic Presentation Format, rfu, 0 */
-    0x8c07, 0x0000, 0x0000, 0x0000, 0x0000,
-    /* 0030: Client Characteristic Configuration */
-    0x6c00,
-    /* 0031: Primary Service 180f */
-    0x0002, 0x0f18,
-    /* 0032: Characteristic Declaration 2a19 */
-    0x3005, 0x1233, 0x0019, 0x2a00,
-    /* 0033: . */
-    0xd401, 0x0000,
-    /* 0034: Characteristic Presentation Format, rfu, 0 */
-    0x8c07, 0x0000, 0x0000, 0x0000, 0x0000,
-    /* 0035: Client Characteristic Configuration */
+    /* 0017: Client Characteristic Configuration */
     0x6c00,
 };
 
@@ -176,9 +116,6 @@ const struct
     uint16      end;
 } sdp_data[] = {
     { UUID_IS_16  | 0x0010, 0x0007, 0x000b },     /* GAP_SERVICE */
-    { UUID_IS_16  | 0x007e, 0x0027, 0x002b },     /* BATTERY_SERVICE1 */
-    { UUID_IS_16  | 0x008c, 0x002c, 0x0030 },     /* BATTERY_SERVICE2 */
-    { UUID_IS_16  | 0x009a, 0x0031, 0xffff },     /* BATTERY_SERVICE3 */
 };
 
 uint8 *GattGetServiceRecord(gatt_sdp service, uint16 *len)

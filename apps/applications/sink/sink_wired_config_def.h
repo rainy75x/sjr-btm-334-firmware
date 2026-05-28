@@ -59,7 +59,7 @@ typedef struct {
     signed short aux_volume;
 } volume_info_t;
 
-#define SINK_WIRED_WRITEABLE_CONFIG_BLK_ID 1152
+#define SINK_WIRED_WRITEABLE_CONFIG_BLK_ID 1018
 
 typedef struct {
     volume_info_t analog_volume;
@@ -67,7 +67,7 @@ typedef struct {
     volume_info_t i2s_volume;
 } sink_wired_writeable_config_def_t;
 
-#define SINK_WIRED_READONLY_CONFIG_BLK_ID 1162
+#define SINK_WIRED_READONLY_CONFIG_BLK_ID 1028
 
 typedef struct {
     unsigned short WiredAudioConnectedPowerOffTimeout_s;
@@ -87,13 +87,13 @@ typedef struct {
     unsigned short i2s_audio_instance:2;
 } sink_wired_readonly_config_def_t;
 
-#define SPDIF_SETTINGS_CONFIG_BLK_ID 1173
+#define SPDIF_SETTINGS_CONFIG_BLK_ID 1039
 
 typedef struct {
     spdif_configuration_t SpdifConfig;
 } spdif_settings_config_def_t;
 
-#define I2S_DATA_CONFIG_BLK_ID 1178
+#define I2S_DATA_CONFIG_BLK_ID 1044
 
 typedef struct {
     i2s_init_config_t_t i2s_init_config;

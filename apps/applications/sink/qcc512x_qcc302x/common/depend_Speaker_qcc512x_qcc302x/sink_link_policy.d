@@ -134,10 +134,6 @@ depend_Speaker_qcc512x_qcc302x/sink_link_policy.o: ..\..\sink_link_policy.c \
     ..\..\..\..\installed_libs\include\firmware_qcc512x_qcc302x\csb_.h \
     ..\..\..\..\installed_libs\include\firmware_qcc512x_qcc302x\message.h \
     ..\..\..\..\installed_libs\include\profiles\default_qcc512x_qcc302x\bdaddr.h \
-    ..\..\..\..\installed_libs\include\profiles\default_qcc512x_qcc302x\gatt_fast_pair_server.h \
-    ..\..\..\..\installed_libs\include\firmware_qcc512x_qcc302x\message.h \
-    ..\..\..\..\installed_libs\include\profiles\default_qcc512x_qcc302x\library.h \
-    ..\..\..\..\installed_libs\include\profiles\default_qcc512x_qcc302x\gatt_manager.h \
     ..\..\sink_inquiry.h \
     ..\..\..\..\installed_libs\include\profiles\default_qcc512x_qcc302x\bdaddr.h \
     ..\..\..\..\installed_libs\include\profiles\default_qcc512x_qcc302x\connection_no_ble.h \
@@ -222,15 +218,5 @@ depend_Speaker_qcc512x_qcc302x/sink_link_policy.o: ..\..\sink_link_policy.c \
     ..\..\..\..\installed_libs\include\profiles\default_qcc512x_qcc302x\pbapc.h \
     ..\..\..\..\installed_libs\include\profiles\default_qcc512x_qcc302x\library.h \
     ..\..\..\..\installed_libs\include\firmware_qcc512x_qcc302x\message.h \
-    ..\..\..\..\installed_libs\include\firmware_qcc512x_qcc302x\bdaddr_.h \
-    ..\..\..\..\installed_libs\include\firmware_qcc512x_qcc302x\vm.h \
-    ..\..\..\..\installed_libs\include\firmware_qcc512x_qcc302x\app\bluestack\types.h \
-    ..\..\..\..\installed_libs\include\firmware_qcc512x_qcc302x\app\bluestack\bluetooth.h \
-    ..\..\..\..\installed_libs\include\firmware_qcc512x_qcc302x\app\bluestack\hci.h \
-    ..\..\..\..\installed_libs\include\firmware_qcc512x_qcc302x\app\bluestack\qbl_types.h \
-    ..\..\..\..\installed_libs\include\firmware_qcc512x_qcc302x\app\bluestack\types.h \
-    ..\..\..\..\installed_libs\include\firmware_qcc512x_qcc302x\app\bluestack\bluetooth.h \
-    ..\..\..\..\installed_libs\include\firmware_qcc512x_qcc302x\app\bluestack\vendor_specific_hci.h \
-    ..\..\..\..\installed_libs\include\firmware_qcc512x_qcc302x\app\bluestack\dm_prim.h \
-    ..\..\..\..\installed_libs\include\firmware_qcc512x_qcc302x\app\bluestack\hci.h 
+    ..\..\..\..\installed_libs\include\firmware_qcc512x_qcc302x\bdaddr_.h 
 

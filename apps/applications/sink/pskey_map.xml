@@ -212,7 +212,7 @@
         Id="Find Me Common" />
 
     <ConfigGroup 
-        Active="True" 
+        Active="False" 
         PsKeyNumber="151" 
         Id="Proximity_readonly" />
 
@@ -247,77 +247,77 @@
         Id="USB Power RO" />
 
     <ConfigGroup 
-        Active="True" 
+        Active="False" 
         PsKeyNumber="158" 
         Id="USB Power Proprietary RO" />
 
     <ConfigGroup 
-        Active="True" 
+        Active="False" 
         PsKeyNumber="159" 
         Id="Sink Power Manager" />
 
     <ConfigGroup 
-        Active="True" 
+        Active="False" 
         PsKeyNumber="160" 
         Id="Sink Gas Gauge Actions" />
 
     <ConfigGroup 
-        Active="True" 
+        Active="False" 
         PsKeyNumber="161" 
         Id="PMU Charger Monitor" />
 
     <ConfigGroup 
-        Active="True" 
+        Active="False" 
         PsKeyNumber="162" 
         Id="Sink Power Readonly Vref" />
 
     <ConfigGroup 
-        Active="True" 
+        Active="False" 
         PsKeyNumber="163" 
         Id="Sink Power Readonly Vbat" />
 
     <ConfigGroup 
-        Active="True" 
+        Active="False" 
         PsKeyNumber="164" 
         Id="BC 1.2" />
 
     <ConfigGroup 
-        Active="True" 
+        Active="False" 
         PsKeyNumber="165" 
         Id="Sink Power Readonly Vthm" />
 
     <ConfigGroup 
-        Active="True" 
+        Active="False" 
         PsKeyNumber="166" 
         Id="Charger Vthm Control" />
 
     <ConfigGroup 
-        Active="True" 
+        Active="False" 
         PsKeyNumber="167" 
         Id="Sink Power Readonly Vchg" />
 
     <ConfigGroup 
-        Active="True" 
+        Active="False" 
         PsKeyNumber="168" 
         Id="External Charger" />
 
     <ConfigGroup 
-        Active="True" 
+        Active="False" 
         PsKeyNumber="169" 
         Id="Charger Progress" />
 
     <ConfigGroup 
-        Active="True" 
+        Active="False" 
         PsKeyNumber="170" 
         Id="Charger Currents" />
 
     <ConfigGroup 
-        Active="True" 
+        Active="False" 
         PsKeyNumber="171" 
         Id="Charger Safety" />
 
     <ConfigGroup 
-        Active="True" 
+        Active="False" 
         PsKeyNumber="172" 
         Id="Voltage Selector" />
 
@@ -332,12 +332,12 @@
         Id="sink_dormant_mode" />
 
     <ConfigGroup 
-        Active="True" 
+        Active="False" 
         PsKeyNumber="175" 
         Id="Sink Upgrade Readonly" />
 
     <ConfigGroup 
-        Active="True" 
+        Active="False" 
         PsKeyNumber="176" 
         Id="Sink Display" />
 
@@ -367,22 +367,22 @@
         Id="Configure DSP Capability IDs" />
 
     <ConfigGroup 
-        Active="True" 
+        Active="False" 
         PsKeyNumber="182" 
         Id="BLE Input Monitor RO" />
 
     <ConfigGroup 
-        Active="True" 
+        Active="False" 
         PsKeyNumber="183" 
         Id="Input Managet Look-up Table" />
 
     <ConfigGroup 
-        Active="True" 
+        Active="False" 
         PsKeyNumber="184" 
         Id="Sink Peer Writeable" />
 
     <ConfigGroup 
-        Active="True" 
+        Active="False" 
         PsKeyNumber="185" 
         Id="Sink Peer Readonly" />
 

@@ -4691,7 +4691,7 @@ void handleA2DPSignallingDisconnected(uint8 DeviceId, a2dp_status_code status,  
     /* If the connection event sent a delayed connection message, cancel it now to stop it arriving */
     if (A2DP_DATA.ui_connect_update_delay>0)
     {
-        MessageCancelFirst(&theSink.task, EventSysA2dpConnected);
+        MessageCancelAll(&theSink.task, EventSysA2dpConnected);
     }
 
     /* Cover LinkLoss event case first and cancel any link loss reminders.

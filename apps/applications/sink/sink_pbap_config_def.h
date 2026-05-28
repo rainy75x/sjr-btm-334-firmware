@@ -20,7 +20,7 @@ DESCRIPTION
 
 #include "config_definition.h"
 
-#define PBAP_READ_ONLY_CONFIG_BLK_ID 1108
+#define PBAP_READ_ONLY_CONFIG_BLK_ID 1000
 
 typedef struct {
     unsigned short padding:15;
