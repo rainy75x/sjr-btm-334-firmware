@@ -1273,7 +1273,8 @@ static void handleUEMessage  ( Task task, MessageId id, Message message )
         case (EventUsrEnterPairing):
             MAIN_DEBUG(("HS: EnterPair [%d]\n" , lState )) ;
 
-            lIndicateEvent = FALSE ;
+            lIndicateEvent = TRUE;
+
             
             /*go into pairing mode*/
             if(lState != deviceLimbo)

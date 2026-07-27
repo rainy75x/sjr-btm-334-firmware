@@ -26,7 +26,7 @@ DESCRIPTION
 
 /* audio volume configuration */
 #define SPEAKER_VOLUME_MAX              0x0000 /* +00.00 */
-#define SPEAKER_VOLUME_MIN              0xD300 /* -45.00 */
+#define SPEAKER_VOLUME_MIN              0xBA00 /* -70.00 */
 #define SPEAKER_VOLUME_RESOLUTION       0x0300 /* +03.00 */
 #define SPEAKER_VOLUME_DEFAULT          0xEC00 /* -20.00 */
 
@@ -36,6 +36,6 @@ DESCRIPTION
 #define MICROPHONE_VOLUME_DEFAULT       0x0000 /* +00.00 */
 
 /* amount of dB attenuation USB will report for volume level */
-#define USB_MIN_VOLUME 45
+#define USB_MIN_VOLUME 70
 
 #endif /* _SINK_USB_DESCRIPTORS_H_ */

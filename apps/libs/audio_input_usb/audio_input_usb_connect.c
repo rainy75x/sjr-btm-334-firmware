@@ -56,11 +56,7 @@ void AudioInputUsbConnectHandler(Task task, Message message, audio_input_context
     A2dpPluginConnectParams *connect_params = (A2dpPluginConnectParams *)connect_message->params;
 
     /* For now all USB audio endpoints only support 16 bit resolution */
-    #ifdef ENABLE_USB_24K
     unsigned sample_size = SAMPLE_SIZE_24_BIT;
-    #else
-    unsigned sample_size = SAMPLE_SIZE_16_BIT;
-    #endif
     unsigned number_of_channels = CHANNELS_NUMBER_STEREO;
 
     PRINT(("AudioInputUsbConnect: sample rate:%d, sample size:%d, number of channels:%d\n", connect_message->rate, sample_size, number_of_channels));

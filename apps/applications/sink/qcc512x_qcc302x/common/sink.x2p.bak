@@ -206,7 +206,7 @@
             <property name="PRIVATE_DEFS"></property>
             <property name="PRIVATE_INCPATHS"></property>
             <property name="STRIP_SYMBOLS">FALSE</property>
-            <property name="SW_VARIANT">Speaker_with_TWS</property>
+            <property name="SW_VARIANT">QCC3034_Rainy75x</property>
             <property name="adk_nfc" alias="DEFS"></property>
             <property name="afh_update_method" alias="DEFS"></property>
             <property name="ahi_transport" alias="DEFS">ENABLE_AHI_USB_HOST</property>
@@ -228,7 +228,7 @@
             <property name="enable_downloadable_caps" alias="DEFS">ENABLE_DOWNLOADABLE_CAPS</property>
             <property name="enable_fast_pair" alias="DEFS"></property>
             <property name="enable_findme_client" alias="DEFS">GATT_IAS_CLIENT</property>
-            <property name="enable_gaa_ble" alias="DEFS">GATT_GAA_COMM_SERVER GATT_AMS_CLIENT GATT_AMS_PROXY GATT_ANCS_CLIENT GATT_ANCS_PROXY GATT_GAA_MEDIA_SERVER</property>
+            <property name="enable_gaa_ble" alias="DEFS"></property>
             <property name="enable_gaia" alias="DEFS">ENABLE_GAIA</property>
             <property name="enable_gaia_persistent_user_eq_bank" alias="DEFS">ENABLE_GAIA_PERSISTENT_USER_EQ_BANK</property>
             <property name="enable_gaia_rfcomm" alias="DEFS">ENABLE_GAIA_RFCOMM</property>
@@ -241,7 +241,7 @@
             <property name="enable_gatt_proximity_server" alias="DEFS"></property>
             <property name="enable_gatt_remote_battery_server" alias="DEFS"></property>
             <property name="enable_heart_rate_server" alias="DEFS"></property>
-            <property name="enable_hi_res_audio" alias="DEFS">HI_RES_AUDIO </property>
+            <property name="enable_hi_res_audio" alias="DEFS"></property>
             <property name="enable_hid_client" alias="DEFS"></property>
             <property name="enable_hid_selfie" alias="DEFS"></property>
             <property name="enable_hrs_client" alias="DEFS"></property>
@@ -250,10 +250,11 @@
             <property name="enable_partymode" alias="DEFS"></property>
             <property name="enable_pbap" alias="DEFS">ENABLE_PBAP</property>
             <property name="enable_peer_battery_level" alias="DEFS"></property>
-            <property name="enable_peer_device" alias="DEFS"></property>
+            <property name="enable_peer_device" alias="DEFS">ENABLE_PEER PEER_TWS PEER_AVRCP</property>
             <property name="enable_random_address" alias="DEFS"></property>
             <property name="enable_upgrade" alias="DEFS"></property>
             <property name="enable_usb" alias="DEFS">ENABLE_USB</property>
+            <property name="enable_usb_24k" alias="DEFS"></property>
             <property name="enable_usb_audio" alias="DEFS">ENABLE_USB_AUDIO</property>
             <property name="enable_usb_hid_upgrade" alias="DEFS">ENABLE_USB_HID_UPGRADE</property>
             <property name="enable_voice_assistant" alias="DEFS"></property>

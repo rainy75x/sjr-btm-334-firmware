@@ -86,12 +86,9 @@ NOTES
 /* Reduced delay for audioUpdateAudioRouting to 20ms from 500ms, upon receiving USB
     message type as MESSAGE_USB_ALT_INTERFACE. This is to minimize the delay before USB audio is heard */
 #define USB_AUDIO_DISCONNECT_DELAY (20)
-#ifdef ENABLE_USB_24K
-#define USB_VOICE_SAMPLE_SIZE                       3 /* 2 -> 16bit audio, 3 -> 24bit audio */
-#else
+
 #define USB_VOICE_PACKET_RATE_HZ                    1000
-#define USB_VOICE_SAMPLE_SIZE                       2 /* 2 -> 16bit audio, 3 -> 24bit audio */
-#endif
+#define USB_VOICE_SAMPLE_SIZE                       3 /* 2 -> 16bit audio, 3 -> 24bit audio */
 #define USB_VOICE_PACKET_SIZE(channels, sample_rate)          (((sample_rate + USB_VOICE_PACKET_RATE_HZ-1) / USB_VOICE_PACKET_RATE_HZ) * USB_VOICE_SAMPLE_SIZE * channels)
 
 /* Interface Descriptors for mono 8kHz. Do Not Modify. */
@@ -647,11 +644,7 @@ static const usb_device_class_audio_volume_config usb_stereo_audio_volume =
 #endif
 
 #define USB_AUDIO_PACKET_RATE_HZ                    1000
-#ifdef ENABLE_USB_24K
 #define USB_AUDIO_SAMPLE_SIZE_STEREO                3 /* 2 -> 16bit audio, 3 -> 24bit audio */
-#else
-#define USB_AUDIO_SAMPLE_SIZE_STEREO                2 /* 2 -> 16bit audio, 3 -> 24bit audio */
-#endif
 
 #define USB_AUDIO_MAX_PACKET_SIZE_MIC_STEREO        (((USB_AUDIO_MAX_SAMPLE_RATE_MIC_STEREO+USB_AUDIO_PACKET_RATE_HZ-1)/USB_AUDIO_PACKET_RATE_HZ)*USB_AUDIO_SAMPLE_SIZE_STEREO*USB_AUDIO_CHANNELS_MIC_STEREO)
 #define USB_AUDIO_MAX_PACKET_SIZE_SPEAKER_STEREO    (((USB_AUDIO_MAX_SAMPLE_RATE_SPEAKER_STEREO+USB_AUDIO_PACKET_RATE_HZ-1)/USB_AUDIO_PACKET_RATE_HZ)*USB_AUDIO_SAMPLE_SIZE_STEREO*USB_AUDIO_CHANNELS_SPEAKER_STEREO)

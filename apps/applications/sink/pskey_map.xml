@@ -377,12 +377,12 @@
         Id="Input Managet Look-up Table" />
 
     <ConfigGroup 
-        Active="False" 
+        Active="True" 
         PsKeyNumber="184" 
         Id="Sink Peer Writeable" />
 
     <ConfigGroup 
-        Active="False" 
+        Active="True" 
         PsKeyNumber="185" 
         Id="Sink Peer Readonly" />
 
